@@ -1,7 +1,6 @@
-.my.ipynb
-.wait.ipynb
-.wait.py
--checkpoints.ipynb
+*.my.ipynb
+*.wait.ipynb
+*.wait.py
 .ipynb_checkpoints
 .idea
 
