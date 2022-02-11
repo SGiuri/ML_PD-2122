@@ -2,3 +2,6 @@
 .wait.ipynb
 .wait.py
 -checkpoints.ipynb
+.ipynb_checkpoints
+.idea
+
