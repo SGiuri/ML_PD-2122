@@ -4,7 +4,7 @@
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/.idea/inspectionProfiles" />
       <excludeFolder url="file://$MODULE_DIR$/Lezioni/.ipynb_checkpoints" />
-      <excludeFolder url="file://$MODULE_DIR$/ML_PD-02-ChessProblems/.idea" />
+      <excludeFolder url="file://$MODULE_DIR$/ML_PD-02-SomeProblems/.idea" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
