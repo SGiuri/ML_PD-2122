@@ -3,4 +3,6 @@
 *.wait.py
 .ipynb_checkpoints
 .idea
-
+*.tsv
+*.csv
+*_My.*
