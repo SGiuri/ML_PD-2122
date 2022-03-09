@@ -5,8 +5,11 @@
       <excludeFolder url="file://$MODULE_DIR$/.idea/inspectionProfiles" />
       <excludeFolder url="file://$MODULE_DIR$/Lezioni/.ipynb_checkpoints" />
       <excludeFolder url="file://$MODULE_DIR$/ML_PD-02-SomeProblems/.idea" />
+      <excludeFolder url="file://$MODULE_DIR$/ML_PD-00-Python/.ipynb_checkpoints" />
+      <excludeFolder url="file://$MODULE_DIR$/ML_PD-01-IntroduzioneAllaDataScience/.ipynb_checkpoints" />
+      <excludeFolder url="file://$MODULE_DIR$/ML_PD-03-PandasExercices/01_Ottieni_&amp;_Prendi_Contatto_Coi_Dati/02-Chipotle/.ipynb_checkpoints" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Python 3.8" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="PyDocumentationSettings">
