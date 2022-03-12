@@ -186,9 +186,6 @@ def play_multiple_games(verbose = False, horse_default_start_position = True):
     # return statistics
     return best_board
 
-
-
-
 best_board, history_board = play_n_games(100_000, horse_default_start_position = False)
 
 print(best_board)
