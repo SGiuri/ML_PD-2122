@@ -1,0 +1,11 @@
+Voti, Prima Prova, Seconda Prova, Terza Prova
+Antonio 20,30,17
+Pallino 18,15,23
+Pinco 15,14,14
+Sempronio 19,30,28
+Attilio 22,30,30
+Martina 12,30,22
+Marika 11,11,30
+Angela 18,18,18
+Paola 30,30,30
+Sandra 15,,30
