@@ -1,0 +1,4 @@
+Nome, Cognome, Età, Sesso, Data Esame
+Pinco, Pallino, 18, M, 10-10-2020
+Aldo, Pollo, 34, M, 16-11-1980
+Anna, Annina, 19, F, 19-03-2019
