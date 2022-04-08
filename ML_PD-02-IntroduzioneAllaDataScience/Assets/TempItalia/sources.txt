@@ -1,0 +1,708 @@
+EUROPEAN CLIMATE ASSESSMENT & DATASET (ECA&D), file created on 08-04-2022
+THESE DATA CAN BE USED FREELY PROVIDED THAT THE FOLLOWING SOURCE IS ACKNOWLEDGED:
+
+Klein Tank, A.M.G. and Coauthors, 2002. Daily dataset of 20th-century surface
+air temperature and precipitation series for the European Climate Assessment.
+Int. J. of Climatol., 22, 1441-1453.
+Data and metadata available at http://www.ecad.eu
+
+FILE FORMAT (MISSING VALUE CODE IS -9999):
+
+ 01- 05 STAID  : Station identifier
+ 07- 12 SOUID  : Source identifier
+ 14- 53 SOUNAME: Source name
+ 55- 56 CN     : Country code (ISO3116 country codes)
+ 58- 66 LAT    : Latitude in degrees:minutes:seconds (+: North, -: South)
+ 68- 77 LON    : Longitude in degrees:minutes:seconds (+: East, -: West)
+ 79- 82 HGTH   : Station elevation in meters
+ 84- 87 ELEI   : Element identifier (see website at Daily Data > Data dictionary > Elements)
+ 89- 96 BEGIN  : Begin date YYYYMMDD
+ 98-105 END    : End date YYYYMMDD
+107-111 PARID  : Participant identifier
+113-163 PARNAME: Participant name
+
+STAID, SOUID,SOUNAME                                 ,CN,      LAT,       LON,HGHT,ELEI,   BEGIN,     END,PARID,PARNAME
+
+  174,100858,BRINDISI                                ,IT,+40:38:00,+017:56:00,  10, TG5,19510101,20091231,   21,Tiziano Colombo                                   
+  174,916320,BRINDISI                                ,IT,+40:39:00,+017:57:00,  10, TG5,19820113,20200229,     ,                    
+  175,100859,CAGLIARI                                ,IT,+39:14:00,+009:03:00,  21, TG5,19510101,20091231,   21,Tiziano Colombo                                   
+  175,916560,CAGLIARI ELMAS                          ,IT,+39:14:00,+009:03:00,   5, TG5,19820113,20200229,     ,                    
+  176,100860,ROMA CIAMPINO                           ,IT,+41:47:00,+012:35:00, 105, TG5,19510101,20091231,   21,Tiziano Colombo                                   
+  176,916239,ROMA/CIAMPINO                           ,IT,+41:48:00,+012:35:00, 105, TG5,19870721,20200229,     ,                    
+  177,100861,VERONA VILLAFRANCA                      ,IT,+45:23:00,+010:52:00,  68, TG5,19510101,20091231,   21,Tiziano Colombo                                   
+  177,916090,VERONA/VILLAFRANCA                      ,IT,+45:23:00,+010:52:00,  68, TG5,19820113,20200229,     ,                    
+  169,100862,BOLOGNA                                 ,IT,+44:30:00,+011:20:46,  53, TG5,18140101,20031231,   20,Maurizio Maugeri                                  
+  169,194648,CASALECCHIO_CANALE                      ,IT,+44:28:32,+011:16:51,  63, TG3,20051231,20100204,   54,Valentina Pavan                                   
+  169,194824,CASTENASO_VILLANOVA                     ,IT,+44:29:24,+011:25:45,  51, TG3,20120502,20160504,   54,Valentina Pavan                                   
+  169,197888,ZOLA_PREDOSA                            ,IT,+44:29:46,+011:12:00,  65, TG3,20051231,20190429,   54,Valentina Pavan                                   
+  169,916132,BOLOGNA                                 ,IT,+44:32:00,+011:17:00,  53, TG5,20050520,20191127,     ,                    
+  169,916140,BOLOGNA/BORGO PANIGALE                  ,IT,+44:32:00,+011:18:00,  37, TG5,19820113,20200229,     ,                    
+  173,105249,MILAN                                   ,IT,+45:28:18,+009:11:21, 150, TG5,17630101,20081130,   20,Maurizio Maugeri                                  
+  380,115587,PADOVA                                  ,IT,+45:23:55,+011:52:49,  12, TG5,19970101,20071231,   20,Maurizio Maugeri                                  
+  381,115591,PALERMO                                 ,IT,+38:06:37,+013:21:05,  37, TG5,20030101,20081231,   20,Maurizio Maugeri                                  
+17512,194048,ALBARETO                                ,IT,+44:42:07,+010:57:24,  28, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17512,195096,CORTILE_DI_CARPI                        ,IT,+44:46:42,+010:58:16,  23, TG3,20070325,20220130,   54,Valentina Pavan                                   
+17512,195968,MODENA                                  ,IT,+44:38:53,+010:56:04,  34, TG3,20051231,20190429,   54,Valentina Pavan                                   
+17512,916128,MODENA                                  ,IT,+44:39:00,+010:57:00,  34, TG5,20050411,20120613,     ,                    
+17513,194056,ALBARETO_PARMA                          ,IT,+44:26:48,+009:41:54, 495, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17516,194088,ALPE_DI_GORRETO                         ,IT,+44:36:13,+009:14:07, 849, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17517,194096,ANITA                                   ,IT,+44:33:55,+012:02:48,  -4, TG3,20121231,20200130,   54,Valentina Pavan                                   
+17517,194576,CAMSE                                   ,IT,+44:36:00,+012:04:38,  -1, TG3,20051231,20171115,   54,Valentina Pavan                                   
+17517,220992,UMANA                                   ,IT,+44:33:10,+012:06:34,   1, TG3,20211031,20220130,   54,Valentina Pavan                                   
+ 2768,194136,BADIA TEDALDA                           ,IT,+43:41:34,+012:08:11, 859, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17521,194144,BAGNACAVALLO                            ,IT,+44:27:09,+012:01:11,   4, TG3,20051231,20111026,   54,Valentina Pavan                                   
+17521,195448,GRANAROLO_FAENTINO                      ,IT,+44:21:36,+011:57:30,  15, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17521,195744,LUGO DI ROMAGNA                         ,IT,+44:25:04,+011:54:48,  14, TG3,20130408,20150305,   54,Valentina Pavan                                   
+17521,197240,SANTAGATA_SUL_SANTERNO                  ,IT,+44:26:54,+011:51:59,  10, TG3,20051231,20220110,   54,Valentina Pavan                                   
+ 2771,194168,BAISO                                   ,IT,+44:29:57,+010:36:21, 550, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17522,194176,BANDO                                   ,IT,+44:39:42,+011:51:08,  -2, TG3,20181107,20200130,   54,Valentina Pavan                                   
+17522,195688,LAVEZZOLA                               ,IT,+44:33:48,+011:50:38,   5, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17522,195848,MARTINELLA                              ,IT,+44:42:41,+011:53:04,   1, TG3,20210630,20220130,   54,Valentina Pavan                                   
+17522,195928,MEZZANO_NORD-OVEST                      ,IT,+44:40:10,+011:53:54,  -4, TG3,20181107,20200130,   54,Valentina Pavan                                   
+17522,196320,OSPITALMONACALE                         ,IT,+44:40:06,+011:43:17,   0, TG3,20121231,20180220,   54,Valentina Pavan                                   
+17522,196328,OSTELLATO                               ,IT,+44:42:26,+011:53:28,   0, TG3,20051231,20180220,   54,Valentina Pavan                                   
+17522,196992,SAIARINO                                ,IT,+44:37:21,+011:48:45,   8, TG3,20051231,20090527,   54,Valentina Pavan                                   
+17523,194192,BARBAGELATA                             ,IT,+44:28:51,+009:14:31,1116, TG3,20051231,20220130,   54,Valentina Pavan                                   
+ 2773,194200,BARCO                                   ,IT,+44:03:39,+011:23:54, 720, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17524,194224,BARDI                                   ,IT,+44:38:01,+009:43:58, 597, TG3,20051231,20220130,   54,Valentina Pavan                                   
+ 2776,194232,BASILICAGOIANO                          ,IT,+44:42:16,+010:24:20, 113, TG3,20070302,20100608,   54,Valentina Pavan                                   
+ 2776,194856,CAVRIAGO                                ,IT,+44:41:22,+010:30:38,  95, TG3,20051231,20190530,   54,Valentina Pavan                                   
+  854,194264,BEDONIA                                 ,IT,+44:30:27,+009:37:36, 521, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17528,194280,BERCETO                                 ,IT,+44:30:37,+009:58:58, 758, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17530,194296,BERRA                                   ,IT,+44:58:04,+011:53:44,   3, TG3,20121231,20180305,   54,Valentina Pavan                                   
+17530,194936,CIPRIANO                                ,IT,+44:55:56,+011:53:48,   1, TG3,20051231,20190530,   54,Valentina Pavan                                   
+17530,195040,COPPARO                                 ,IT,+44:54:59,+011:49:17,   1, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17531,194312,BETTOLA                                 ,IT,+44:46:59,+009:36:07, 329, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17533,194328,BIBBIANA                                ,IT,+44:07:50,+011:30:38, 658, TG3,20051231,20220130,   54,Valentina Pavan                                   
+  855,194344,BOBBIO                                  ,IT,+44:45:18,+009:23:03, 270, TG3,20060101,20220130,   54,Valentina Pavan                                   
+17536,194360,BOLOGNA_IDROGRAFICO                     ,IT,+44:29:59,+011:20:46,  84, TG3,20150924,20220130,   54,Valentina Pavan                                   
+17536,194384,BOLOGNA_URBANA                          ,IT,+44:30:02,+011:19:43,  78, TG3,20051231,20220115,   54,Valentina Pavan                                   
+17537,194368,BOLOGNA_SAN_LUCA                        ,IT,+44:28:43,+011:17:54, 286, TG3,20090724,20220130,   54,Valentina Pavan                                   
+17537,196344,PADERNO                                 ,IT,+44:26:49,+011:18:57, 267, TG3,20140206,20220130,   54,Valentina Pavan                                   
+17537,197360,SASSO_MARCONI_ARPA                      ,IT,+44:26:22,+011:14:28, 275, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17538,194376,BOLOGNA_TORRE_ASINELLI                  ,IT,+44:29:39,+011:20:48, 148, TG3,20060503,20220130,   54,Valentina Pavan                                   
+17539,194360,BOLOGNA_IDROGRAFICO                     ,IT,+44:29:59,+011:20:46,  84, TG3,20150924,20220130,   54,Valentina Pavan                                   
+17539,194384,BOLOGNA_URBANA                          ,IT,+44:30:02,+011:19:43,  78, TG3,20051231,20220115,   54,Valentina Pavan                                   
+17540,194400,BONDENO                                 ,IT,+44:54:00,+011:21:00,   9, TG3,20121231,20180220,   54,Valentina Pavan                                   
+17540,195288,FINALE_EMILIA                           ,IT,+44:48:56,+011:15:04,  16, TG3,20060531,20220130,   54,Valentina Pavan                                   
+17540,195952,MIRABELLO                               ,IT,+44:49:54,+011:27:15,  10, TG3,20051231,20220130,   54,Valentina Pavan                                   
+  856,194448,BOSCO CENTRALE                          ,IT,+44:26:20,+010:02:01, 902, TG3,20051231,20220130,   54,Valentina Pavan                                   
+ 2782,194464,BRISIGHELLA                             ,IT,+44:13:23,+011:46:18, 115, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17546,194472,BUDRIO_DONDINA                          ,IT,+44:31:19,+011:32:59,  30, TG3,20120430,20160505,   54,Valentina Pavan                                   
+17546,195936,MEZZOLARA                               ,IT,+44:34:15,+011:32:01,  20, TG3,20051231,20220130,   54,Valentina Pavan                                   
+ 2783,194480,CABANNE                                 ,IT,+44:29:41,+009:20:45, 848, TG3,20051231,20220130,   54,Valentina Pavan                                   
+ 2783,194712,CASONI_DI_SANTA_MARIA_DI_TARO           ,IT,+44:26:15,+009:28:50, 853, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17547,194488,CA_BORTOLANI                            ,IT,+44:20:48,+011:05:04, 691, TG3,20110615,20220130,   54,Valentina Pavan                                   
+17547,196128,MONTEOMBRARO                            ,IT,+44:22:35,+011:00:31, 700, TG3,20051231,20220130,   54,Valentina Pavan                                   
+ 2786,194512,CALESTANO                               ,IT,+44:36:21,+010:07:28, 381, TG3,20051231,20150101,   54,Valentina Pavan                                   
+ 2787,194552,CAMPIGNA                                ,IT,+43:52:20,+011:44:50,1068, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17553,194560,CAMPOGALLIANO                           ,IT,+44:41:36,+010:51:11,  40, TG3,20051231,20170306,   54,Valentina Pavan                                   
+17553,195864,MARZAGLIA                               ,IT,+44:38:13,+010:48:21,  54, TG3,20080923,20220130,   54,Valentina Pavan                                   
+17553,195968,MODENA                                  ,IT,+44:38:53,+010:56:04,  34, TG3,20051231,20190429,   54,Valentina Pavan                                   
+17553,916128,MODENA                                  ,IT,+44:39:00,+010:57:00,  34, TG5,20050411,20120613,     ,                    
+17554,194568,CAMPORA_DI_SASSO                        ,IT,+44:31:16,+010:16:31, 649, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17555,194096,ANITA                                   ,IT,+44:33:55,+012:02:48,  -4, TG3,20121231,20200130,   54,Valentina Pavan                                   
+17555,194576,CAMSE                                   ,IT,+44:36:00,+012:04:38,  -1, TG3,20051231,20171115,   54,Valentina Pavan                                   
+17555,220992,UMANA                                   ,IT,+44:33:10,+012:06:34,   1, TG3,20211031,20220130,   54,Valentina Pavan                                   
+17557,194592,CANOSSA                                 ,IT,+44:33:57,+010:27:56, 516, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17559,194608,CAPACCIO                                ,IT,+43:55:57,+011:53:39, 295, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17560,194624,CARPINETA                               ,IT,+44:05:20,+012:16:28, 113, TG3,20051231,20211127,   54,Valentina Pavan                                   
+17561,194632,CARPINETI                               ,IT,+44:28:32,+010:30:31, 580, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17561,196944,RONCOVETRO                              ,IT,+44:31:03,+010:22:52, 571, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17563,100862,BOLOGNA                                 ,IT,+44:30:00,+011:20:46,  53, TG5,18140101,20031231,   20,Maurizio Maugeri                                  
+17563,194360,BOLOGNA_IDROGRAFICO                     ,IT,+44:29:59,+011:20:46,  84, TG3,20150924,20220130,   54,Valentina Pavan                                   
+17563,194384,BOLOGNA_URBANA                          ,IT,+44:30:02,+011:19:43,  78, TG3,20051231,20220115,   54,Valentina Pavan                                   
+17563,194648,CASALECCHIO_CANALE                      ,IT,+44:28:32,+011:16:51,  63, TG3,20051231,20100204,   54,Valentina Pavan                                   
+17563,916132,BOLOGNA                                 ,IT,+44:32:00,+011:17:00,  53, TG5,20050520,20191127,     ,                    
+17564,194656,CASALPORINO                             ,IT,+44:31:37,+009:32:50, 925, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17565,194664,CASASELVATICA                           ,IT,+44:32:52,+010:02:08, 834, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17566,194672,CASATICO                                ,IT,+44:38:53,+010:15:30, 347, TG3,20051231,20170131,   54,Valentina Pavan                                   
+17569,194704,CASONI_DI_ROMAGNA                       ,IT,+44:15:12,+011:25:31, 708, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17570,194712,CASONI_DI_SANTA_MARIA_DI_TARO           ,IT,+44:26:15,+009:28:50, 853, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17570,197584,TARSOGNO                                ,IT,+44:26:48,+009:37:04, 852, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17571,194720,CASSA_DOSOLO                            ,IT,+44:39:14,+011:16:06,  22, TG3,20141224,20220130,   54,Valentina Pavan                                   
+17571,196360,PADULLE_SALA_BOLOGNESE                  ,IT,+44:37:39,+011:17:26,  25, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17571,197232,SANTAGATA_BOLOGNESE                     ,IT,+44:41:42,+011:08:41,  18, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17572,194728,CASSIMORENO                             ,IT,+44:38:10,+009:34:45, 881, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17573,194736,CASTELDELCI                             ,IT,+43:47:17,+012:08:33, 720, TG3,20051231,20220130,   54,Valentina Pavan                                   
+ 2791,194744,CASTEL DEL RIO                          ,IT,+44:12:40,+011:30:18, 216, TG3,20111115,20220130,   54,Valentina Pavan                                   
+17574,194048,ALBARETO                                ,IT,+44:42:07,+010:57:24,  28, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17574,194752,CASTELFRANCO_EMILIA                     ,IT,+44:37:52,+011:01:46,  32, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17574,195968,MODENA                                  ,IT,+44:38:53,+010:56:04,  34, TG3,20051231,20190429,   54,Valentina Pavan                                   
+17574,197232,SANTAGATA_BOLOGNESE                     ,IT,+44:41:42,+011:08:41,  18, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17574,916128,MODENA                                  ,IT,+44:39:00,+010:57:00,  34, TG5,20050411,20120613,     ,                    
+17577,194776,CASTELLAZZO_VILLANOVA_DARDA             ,IT,+45:00:09,+010:00:17,  41, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17577,196184,MONTICELLI_ARPA                         ,IT,+45:04:49,+009:58:15,  37, TG3,20051231,20081124,   54,Valentina Pavan                                   
+17577,197880,ZIBELLO                                 ,IT,+45:01:10,+010:07:34,  35, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17578,194784,CASTELNOVO_DI_SOTTO                     ,IT,+44:50:13,+010:34:41,  23, TG3,20051231,20220130,   54,Valentina Pavan                                   
+ 2793,194792,CASTELNOVO NE'MONTI                     ,IT,+44:26:06,+010:23:41, 729, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17580,194808,CASTEL_SAN_PIETRO                       ,IT,+44:24:40,+011:35:49,  58, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17580,195528,IMOLA                                   ,IT,+44:20:45,+011:42:46,  42, TG3,20111115,20220130,   54,Valentina Pavan                                   
+17581,194808,CASTEL_SAN_PIETRO                       ,IT,+44:24:40,+011:35:49,  58, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17581,194816,CASTEL_SAN_PIETRO_GAIANA                ,IT,+44:27:30,+011:36:09,  45, TG3,20120503,20160505,   54,Valentina Pavan                                   
+17582,100862,BOLOGNA                                 ,IT,+44:30:00,+011:20:46,  53, TG5,18140101,20031231,   20,Maurizio Maugeri                                  
+17582,194472,BUDRIO_DONDINA                          ,IT,+44:31:19,+011:32:59,  30, TG3,20120430,20160505,   54,Valentina Pavan                                   
+17582,194648,CASALECCHIO_CANALE                      ,IT,+44:28:32,+011:16:51,  63, TG3,20051231,20100204,   54,Valentina Pavan                                   
+17582,194824,CASTENASO_VILLANOVA                     ,IT,+44:29:24,+011:25:45,  51, TG3,20120502,20160504,   54,Valentina Pavan                                   
+17582,197464,SERPIERI                                ,IT,+44:32:54,+011:22:02,  28, TG3,20181031,20220130,   54,Valentina Pavan                                   
+17582,197984,BUDRIO_PRUNARO                          ,IT,+44:30:33,+011:31:12,  46, TG3,20120503,20160504,   54,Valentina Pavan                                   
+17582,916140,BOLOGNA/BORGO PANIGALE                  ,IT,+44:32:00,+011:18:00,  37, TG5,19820113,20200229,     ,                    
+ 2795,194840,CATTOLICA                               ,IT,+43:57:30,+012:44:22,   5, TG3,20060727,20220130,   54,Valentina Pavan                                   
+17584,194856,CAVRIAGO                                ,IT,+44:41:22,+010:30:38,  95, TG3,20051231,20190530,   54,Valentina Pavan                                   
+17584,198104,REGGIO_NELLEMILIA_URBANA                ,IT,+44:41:52,+010:38:01,  72, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17586,194872,CERRETO_LAGHI                           ,IT,+44:17:55,+010:14:18,1336, TG3,20051231,20100708,   54,Valentina Pavan                                   
+17588,194912,CESENATICO_PORTO                        ,IT,+44:12:23,+012:24:04,   1, TG3,20080123,20210130,   54,Valentina Pavan                                   
+17588,195856,MARTORANO                               ,IT,+44:09:58,+012:16:04,  25, TG3,20060713,20220130,   54,Valentina Pavan                                   
+17588,916148,CERVIA                                  ,IT,+44:13:00,+012:18:00,  10, TG5,20000526,20200229,     ,                    
+17589,194920,CESENA_URBANA                           ,IT,+44:08:17,+012:14:37,  77, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17589,197080,SAN_CARLO                               ,IT,+44:05:27,+012:11:59,  54, TG3,20051231,20150826,   54,Valentina Pavan                                   
+17591,194296,BERRA                                   ,IT,+44:58:04,+011:53:44,   3, TG3,20121231,20180305,   54,Valentina Pavan                                   
+17591,194936,CIPRIANO                                ,IT,+44:55:56,+011:53:48,   1, TG3,20051231,20190530,   54,Valentina Pavan                                   
+17591,195040,COPPARO                                 ,IT,+44:54:59,+011:49:17,   1, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17592,194944,CIVAGO                                  ,IT,+44:14:49,+010:27:56,1051, TG3,20051231,20220130,   54,Valentina Pavan                                   
+ 2798,194952,CIVITELLA DI ROMAGNA                    ,IT,+43:59:37,+011:56:43, 460, TG3,20051231,20220130,   54,Valentina Pavan                                   
+ 2799,194984,CODIGORO                                ,IT,+44:50:06,+012:05:52,   2, TG3,20180407,20220130,   54,Valentina Pavan                                   
+ 2799,195088,CORTE_CENTRALE                          ,IT,+44:47:13,+012:01:39,  -2, TG3,20181107,20200130,   54,Valentina Pavan                                   
+ 2799,195432,GIRALDA                                 ,IT,+44:48:51,+012:14:54,   3, TG3,20051231,20220130,   54,Valentina Pavan                                   
+ 2799,195568,JOLANDA DI SAVOIA                       ,IT,+44:53:11,+011:58:36,  -2, TG3,20121231,20180220,   54,Valentina Pavan                                   
+ 2799,195616,LAGOSANTO                               ,IT,+44:44:22,+012:08:55,  -4, TG3,20181107,20200130,   54,Valentina Pavan                                   
+ 2799,195912,MESOLA                                  ,IT,+44:55:09,+012:10:21,  -3, TG3,20121231,20200130,   54,Valentina Pavan                                   
+ 2799,196648,PONTE_MAODINO                           ,IT,+44:49:37,+012:07:58,  -3, TG3,20181107,20190530,   54,Valentina Pavan                                   
+ 2799,197856,VOLANO                                  ,IT,+44:48:46,+012:15:01,   1, TG3,20060718,20181016,   54,Valentina Pavan                                   
+ 2800,195000,COLLAGNA                                ,IT,+44:20:41,+010:16:16, 832, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17597,195016,COLORNO                                 ,IT,+44:56:37,+010:20:58,  29, TG3,20051231,20161124,   54,Valentina Pavan                                   
+17597,195408,GAINAGO                                 ,IT,+44:53:07,+010:22:50,  28, TG3,20051231,20220130,   54,Valentina Pavan                                   
+ 2801,195040,COPPARO                                 ,IT,+44:54:59,+011:49:17,   1, TG3,20051231,20220130,   54,Valentina Pavan                                   
+ 2802,195056,CORNIOLO                                ,IT,+43:54:26,+011:47:35, 555, TG3,20051231,20220130,   54,Valentina Pavan                                   
+ 2802,195176,DIGA_DI_RIDRACOLI                       ,IT,+43:52:12,+011:50:19, 565, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17601,195072,CORREGGIO                               ,IT,+44:44:35,+010:46:22,  33, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17601,195864,MARZAGLIA                               ,IT,+44:38:13,+010:48:21,  54, TG3,20080923,20220130,   54,Valentina Pavan                                   
+17602,195080,CORSICCHIE                              ,IT,+43:50:45,+012:02:08,1200, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17603,194984,CODIGORO                                ,IT,+44:50:06,+012:05:52,   2, TG3,20180407,20220130,   54,Valentina Pavan                                   
+17603,195088,CORTE_CENTRALE                          ,IT,+44:47:13,+012:01:39,  -2, TG3,20181107,20200130,   54,Valentina Pavan                                   
+17603,195568,JOLANDA DI SAVOIA                       ,IT,+44:53:11,+011:58:36,  -2, TG3,20121231,20180220,   54,Valentina Pavan                                   
+17603,195616,LAGOSANTO                               ,IT,+44:44:22,+012:08:55,  -4, TG3,20181107,20200130,   54,Valentina Pavan                                   
+17604,194048,ALBARETO                                ,IT,+44:42:07,+010:57:24,  28, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17604,195096,CORTILE_DI_CARPI                        ,IT,+44:46:42,+010:58:16,  23, TG3,20070325,20220130,   54,Valentina Pavan                                   
+ 2804,195104,COTTEDE                                 ,IT,+44:06:35,+011:10:09, 794, TG3,20060101,20220130,   54,Valentina Pavan                                   
+17605,195112,CUSERCOLI                               ,IT,+44:02:27,+011:58:54, 330, TG3,20051231,20210925,   54,Valentina Pavan                                   
+17607,195128,DIAMANTINA                              ,IT,+44:53:09,+011:30:42,   5, TG3,20121231,20180220,   54,Valentina Pavan                                   
+17607,195672,LA_VALLETTA                             ,IT,+44:54:52,+011:29:46,   6, TG3,20051231,20200130,   54,Valentina Pavan                                   
+17607,195952,MIRABELLO                               ,IT,+44:49:54,+011:27:15,  10, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17607,196640,PONTELAGOSCURO                          ,IT,+44:53:17,+011:36:29,   8, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17607,197960,FERRARA_URBANA                          ,IT,+44:49:56,+011:37:16,  26, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17607,916133,FERRARA                                 ,IT,+44:50:00,+011:37:00,  11, TG5,20050602,20200229,     ,                    
+17607,916138,FERRARA                                 ,IT,+44:49:00,+011:37:00,   9, TG5,20000915,20200229,     ,                    
+ 2806,195144,DIGA DEL BRUGNETO                       ,IT,+44:32:02,+009:12:30, 744, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17608,195152,DIGA_DI_BRASIMONE                       ,IT,+44:07:44,+011:07:03, 840, TG3,20180407,20220130,   54,Valentina Pavan                                   
+ 2807,195160,DIGA DI PAVANA                          ,IT,+44:07:06,+011:00:20, 480, TG3,20180407,20220130,   54,Valentina Pavan                                   
+ 2807,195184,DIGA DI SUVIANA                         ,IT,+44:08:04,+011:02:35, 500, TG3,20180407,20220116,   54,Valentina Pavan                                   
+ 2808,195168,DIGA DI QUARTO                          ,IT,+43:53:26,+012:05:11, 325, TG3,20180407,20220130,   54,Valentina Pavan                                   
+17609,195056,CORNIOLO                                ,IT,+43:54:26,+011:47:35, 555, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17609,195176,DIGA_DI_RIDRACOLI                       ,IT,+43:52:12,+011:50:19, 565, TG3,20051231,20220130,   54,Valentina Pavan                                   
+ 2809,195160,DIGA DI PAVANA                          ,IT,+44:07:06,+011:00:20, 480, TG3,20180407,20220130,   54,Valentina Pavan                                   
+ 2809,195184,DIGA DI SUVIANA                         ,IT,+44:08:04,+011:02:35, 500, TG3,20180407,20220116,   54,Valentina Pavan                                   
+17610,195192,DOCCIA_DI_FIUMALBO                      ,IT,+44:11:24,+010:40:23,1371, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17614,195232,FARFANARO                               ,IT,+44:34:00,+009:40:46, 787, TG3,20051231,20220130,   54,Valentina Pavan                                   
+ 2811,195248,FARNETA CENTRALE                        ,IT,+44:21:00,+010:34:12, 703, TG3,20051231,20220130,   54,Valentina Pavan                                   
+ 2811,197840,VILLA MINOZZO                           ,IT,+44:21:45,+010:27:36, 704, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17616,195256,FEBBIO                                  ,IT,+44:17:52,+010:25:38,1148, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17616,196312,OSPITALETTO (OSPEDALETTO)               ,IT,+44:17:49,+010:19:00,1150, TG3,20051231,20220130,   54,Valentina Pavan                                   
+  170,195264,FERRARA                                 ,IT,+44:49:57,+011:37:16,  15, TG3,20051231,20190429,   54,Valentina Pavan                                   
+  170,195792,MALBORGHETTO                            ,IT,+44:51:28,+011:39:40,   4, TG3,20061003,20220130,   54,Valentina Pavan                                   
+  170,196640,PONTELAGOSCURO                          ,IT,+44:53:17,+011:36:29,   8, TG3,20051231,20220130,   54,Valentina Pavan                                   
+  170,197960,FERRARA_URBANA                          ,IT,+44:49:56,+011:37:16,  26, TG3,20051231,20220130,   54,Valentina Pavan                                   
+  170,916133,FERRARA                                 ,IT,+44:50:00,+011:37:00,  11, TG5,20050602,20200229,     ,                    
+  170,916138,FERRARA                                 ,IT,+44:49:00,+011:37:00,   9, TG5,20000915,20200229,     ,                    
+17618,195280,FIDENZA                                 ,IT,+44:53:36,+010:04:59,  58, TG3,20051231,20170131,   54,Valentina Pavan                                   
+17618,195472,GRUGNO                                  ,IT,+44:52:37,+010:13:32,  42, TG3,20051231,20160707,   54,Valentina Pavan                                   
+17619,195288,FINALE_EMILIA                           ,IT,+44:48:56,+011:15:04,  16, TG3,20060531,20220130,   54,Valentina Pavan                                   
+17619,197104,SAN_FELICE_SUL_PANARO                   ,IT,+44:49:33,+011:07:32,  16, TG3,20051231,20220130,   54,Valentina Pavan                                   
+ 2814,195296,FIORENZUOLA D'ARDA                      ,IT,+44:56:04,+009:53:43,  79, TG3,20051231,20070801,   54,Valentina Pavan                                   
+ 2815,195304,FIRENZUOLA                              ,IT,+44:07:19,+011:22:28, 476, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17622,195352,FORLI_URBANA                            ,IT,+44:13:13,+012:02:30,  51, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17622,196848,REDA_DI_FAENZA                          ,IT,+44:16:33,+011:55:25,  32, TG3,20051231,20190530,   54,Valentina Pavan                                   
+17622,916147,FORLI                                   ,IT,+44:12:00,+012:04:00,  32, TG5,20000526,20150922,     ,                    
+17623,195360,FORMIGINE                               ,IT,+44:33:04,+010:54:33,  90, TG3,20051231,20210629,   54,Valentina Pavan                                   
+17623,197944,MODENA_URBANA                           ,IT,+44:39:23,+010:55:01,  73, TG3,20051231,20220129,   54,Valentina Pavan                                   
+ 2821,195368,IDROVORA FOSSO GHIAIA                   ,IT,+44:21:12,+012:15:54,   2, TG3,20180407,20220130,   54,Valentina Pavan                                   
+ 2821,197216,SAN_PIETRO_IN_VINCOLI                   ,IT,+44:18:50,+012:09:36,   5, TG3,20051231,20220130,   54,Valentina Pavan                                   
+ 2821,197336,SAN_ZACCARIA                            ,IT,+44:15:26,+012:12:50,  10, TG3,20051231,20210629,   54,Valentina Pavan                                   
+17624,195376,FRASSINETO                              ,IT,+44:34:53,+009:35:06, 824, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17625,195384,FRASSINORO                              ,IT,+44:17:44,+010:34:32,1091, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17627,195400,GAIBANELLA                              ,IT,+44:46:08,+011:39:45,   3, TG3,20181107,20200130,   54,Valentina Pavan                                   
+17627,197056,SAN_BARTOLOMEO_IN_BOSCO                 ,IT,+44:44:29,+011:36:23,   8, TG3,20121231,20180220,   54,Valentina Pavan                                   
+17627,197416,SELLARINO_VOGHIERA                      ,IT,+44:44:47,+011:44:46,   3, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17627,197960,FERRARA_URBANA                          ,IT,+44:49:56,+011:37:16,  26, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17627,916133,FERRARA                                 ,IT,+44:50:00,+011:37:00,  11, TG5,20050602,20200229,     ,                    
+17627,916138,FERRARA                                 ,IT,+44:49:00,+011:37:00,   9, TG5,20000915,20200229,     ,                    
+17628,195408,GAINAGO                                 ,IT,+44:53:07,+010:22:50,  28, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17628,916130,PARMA                                   ,IT,+44:49:00,+010:17:00,  52, TG5,20050409,20141125,     ,                    
+17629,195416,GALLO                                   ,IT,+44:43:26,+011:32:43,  21, TG3,20051231,20111103,   54,Valentina Pavan                                   
+17629,196576,POGGIO_RENATICO                         ,IT,+44:45:55,+011:28:58,  10, TG3,20121231,20180220,   54,Valentina Pavan                                   
+17629,197056,SAN_BARTOLOMEO_IN_BOSCO                 ,IT,+44:44:29,+011:36:23,   8, TG3,20121231,20180220,   54,Valentina Pavan                                   
+17629,197208,SAN_PIETRO_CAPOFIUME                    ,IT,+44:39:13,+011:37:21,  11, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17629,916138,FERRARA                                 ,IT,+44:49:00,+011:37:00,   9, TG5,20000915,20200229,     ,                    
+17630,195424,GARIGA                                  ,IT,+44:58:00,+009:40:55, 102, TG3,20070728,20090312,   54,Valentina Pavan                                   
+17631,194984,CODIGORO                                ,IT,+44:50:06,+012:05:52,   2, TG3,20180407,20220130,   54,Valentina Pavan                                   
+17631,195432,GIRALDA                                 ,IT,+44:48:51,+012:14:54,   3, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17631,195616,LAGOSANTO                               ,IT,+44:44:22,+012:08:55,  -4, TG3,20181107,20200130,   54,Valentina Pavan                                   
+17631,197136,SAN_GIUSEPPE                            ,IT,+44:43:49,+012:11:09,  -5, TG3,20181213,20200130,   54,Valentina Pavan                                   
+17631,197856,VOLANO                                  ,IT,+44:48:46,+012:15:01,   1, TG3,20060718,20181016,   54,Valentina Pavan                                   
+17632,195440,GRAMMATICA                              ,IT,+44:26:17,+010:05:34, 980, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17632,196240,MUSIARA_SUPERIORE                       ,IT,+44:29:54,+010:10:42, 982, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17633,195448,GRANAROLO_FAENTINO                      ,IT,+44:21:36,+011:57:30,  15, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17633,196848,REDA_DI_FAENZA                          ,IT,+44:16:33,+011:55:25,  32, TG3,20051231,20190530,   54,Valentina Pavan                                   
+17633,197240,SANTAGATA_SUL_SANTERNO                  ,IT,+44:26:54,+011:51:59,  10, TG3,20051231,20220110,   54,Valentina Pavan                                   
+17633,197304,SANTERNO_SENIO_1                        ,IT,+44:24:03,+011:51:49,  16, TG3,20051231,20180501,   54,Valentina Pavan                                   
+17635,194312,BETTOLA                                 ,IT,+44:46:59,+009:36:07, 329, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17635,195464,GROPPARELLO                             ,IT,+44:49:30,+009:43:31, 341, TG3,20170205,20220130,   54,Valentina Pavan                                   
+17636,195408,GAINAGO                                 ,IT,+44:53:07,+010:22:50,  28, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17636,195472,GRUGNO                                  ,IT,+44:52:37,+010:13:32,  42, TG3,20051231,20160707,   54,Valentina Pavan                                   
+17636,197192,SAN_PANCRAZIO                           ,IT,+44:48:29,+010:16:20,  59, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17636,916130,PARMA                                   ,IT,+44:49:00,+010:17:00,  52, TG5,20050409,20141125,     ,                    
+17637,195480,GUAGNINO                                ,IT,+44:41:18,+012:12:41,   1, TG3,20100708,20220130,   54,Valentina Pavan                                   
+17637,196712,PORTO_GARIBALDI                         ,IT,+44:40:36,+012:14:57,   0, TG3,20141224,20200130,   54,Valentina Pavan                                   
+ 2819,195496,GUIGLIA (STAZ. AGRARIA)                 ,IT,+44:25:57,+010:59:33, 456, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17639,195368,IDROVORA FOSSO GHIAIA                   ,IT,+44:21:12,+012:15:54,   2, TG3,20180407,20220130,   54,Valentina Pavan                                   
+17639,195512,IDROVORO_FOSSO_GHIAIA                   ,IT,+44:21:12,+012:15:53,   2, TG3,20180407,20190429,   54,Valentina Pavan                                   
+17639,197216,SAN_PIETRO_IN_VINCOLI                   ,IT,+44:18:50,+012:09:36,   5, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17639,197336,SAN_ZACCARIA                            ,IT,+44:15:26,+012:12:50,  10, TG3,20051231,20210629,   54,Valentina Pavan                                   
+ 2822,194808,CASTEL_SAN_PIETRO                       ,IT,+44:24:40,+011:35:49,  58, TG3,20051231,20220130,   54,Valentina Pavan                                   
+ 2822,195528,IMOLA                                   ,IT,+44:20:45,+011:42:46,  42, TG3,20111115,20220130,   54,Valentina Pavan                                   
+ 2822,197368,SASSO_MORELLI                           ,IT,+44:25:10,+011:45:14,  19, TG3,20051231,20220130,   54,Valentina Pavan                                   
+ 2822,197376,SASSO_MORELLI_BEGHINA                   ,IT,+44:23:50,+011:43:27,  28, TG3,20120503,20160506,   54,Valentina Pavan                                   
+17641,194808,CASTEL_SAN_PIETRO                       ,IT,+44:24:40,+011:35:49,  58, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17641,195528,IMOLA                                   ,IT,+44:20:45,+011:42:46,  42, TG3,20111115,20220130,   54,Valentina Pavan                                   
+17641,195536,IMOLA2                                  ,IT,+44:22:44,+011:39:08,  66, TG3,20181107,20190530,   54,Valentina Pavan                                   
+17641,195544,IMOLA_MARIO_NERI                        ,IT,+44:19:59,+011:44:58,  68, TG3,20051231,20211030,   54,Valentina Pavan                                   
+17642,195544,IMOLA_MARIO_NERI                        ,IT,+44:19:59,+011:44:58,  68, TG3,20051231,20211030,   54,Valentina Pavan                                   
+17643,195552,INVASO                                  ,IT,+44:13:38,+011:13:18, 460, TG3,20051231,20220130,   54,Valentina Pavan                                   
+ 2823,195560,ISOLA DI PALANZANO CENTRALE             ,IT,+44:25:42,+010:09:44, 597, TG3,20051231,20220130,   54,Valentina Pavan                                   
+ 2823,195832,MARRA CENTRALE                          ,IT,+44:28:24,+010:02:51, 618, TG3,20051231,20220130,   54,Valentina Pavan                                   
+ 2825,194296,BERRA                                   ,IT,+44:58:04,+011:53:44,   3, TG3,20121231,20180305,   54,Valentina Pavan                                   
+ 2825,194936,CIPRIANO                                ,IT,+44:55:56,+011:53:48,   1, TG3,20051231,20190530,   54,Valentina Pavan                                   
+ 2825,194984,CODIGORO                                ,IT,+44:50:06,+012:05:52,   2, TG3,20180407,20220130,   54,Valentina Pavan                                   
+ 2825,195088,CORTE_CENTRALE                          ,IT,+44:47:13,+012:01:39,  -2, TG3,20181107,20200130,   54,Valentina Pavan                                   
+ 2825,195568,JOLANDA DI SAVOIA                       ,IT,+44:53:11,+011:58:36,  -2, TG3,20121231,20180220,   54,Valentina Pavan                                   
+17644,195576,LAGDEI                                  ,IT,+44:24:47,+010:00:34,1252, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17645,195584,LAGO_BALLANO                            ,IT,+44:22:10,+010:06:07,1339, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17647,195600,LAGO_PADULI                             ,IT,+44:20:44,+010:08:18,1151, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17648,195608,LAGO_PRATIGNANO                         ,IT,+44:10:38,+010:49:04,1319, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17649,194984,CODIGORO                                ,IT,+44:50:06,+012:05:52,   2, TG3,20180407,20220130,   54,Valentina Pavan                                   
+17649,195432,GIRALDA                                 ,IT,+44:48:51,+012:14:54,   3, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17649,195480,GUAGNINO                                ,IT,+44:41:18,+012:12:41,   1, TG3,20100708,20220130,   54,Valentina Pavan                                   
+17649,195616,LAGOSANTO                               ,IT,+44:44:22,+012:08:55,  -4, TG3,20181107,20200130,   54,Valentina Pavan                                   
+17649,196648,PONTE_MAODINO                           ,IT,+44:49:37,+012:07:58,  -3, TG3,20181107,20190530,   54,Valentina Pavan                                   
+17649,197136,SAN_GIUSEPPE                            ,IT,+44:43:49,+012:11:09,  -5, TG3,20181213,20200130,   54,Valentina Pavan                                   
+17649,197856,VOLANO                                  ,IT,+44:48:46,+012:15:01,   1, TG3,20060718,20181016,   54,Valentina Pavan                                   
+17650,195624,LAGO_SCAFFAIOLO                         ,IT,+44:07:09,+010:48:32,1794, TG3,20100804,20211230,   54,Valentina Pavan                                   
+17651,195632,LAMA                                    ,IT,+43:49:55,+011:50:22, 715, TG3,20051231,20220130,   54,Valentina Pavan                                   
+16702,195648,LANGHIRANO                              ,IT,+44:36:14,+010:15:39, 269, TG3,20051231,20210609,   54,Valentina Pavan                                   
+16702,197504,SIVIZZANO                               ,IT,+44:38:33,+010:21:25, 258, TG3,20051231,20170131,   54,Valentina Pavan                                   
+17653,195656,LA_STELLA                               ,IT,+44:31:47,+010:29:26, 729, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17653,196752,PREDOLO                                 ,IT,+44:29:03,+010:26:48, 751, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17655,195128,DIAMANTINA                              ,IT,+44:53:09,+011:30:42,   5, TG3,20121231,20180220,   54,Valentina Pavan                                   
+17655,195672,LA_VALLETTA                             ,IT,+44:54:52,+011:29:46,   6, TG3,20051231,20200130,   54,Valentina Pavan                                   
+17655,195952,MIRABELLO                               ,IT,+44:49:54,+011:27:15,  10, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17655,196640,PONTELAGOSCURO                          ,IT,+44:53:17,+011:36:29,   8, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17657,195688,LAVEZZOLA                               ,IT,+44:33:48,+011:50:38,   5, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17657,197272,SANTANTONIO_ARPA                        ,IT,+44:34:07,+011:43:57,   8, TG3,20051231,20220130,   54,Valentina Pavan                                   
+  859,195712,LIGONCHIO CENTRALE                      ,IT,+44:19:01,+010:20:42, 900, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17661,195728,LODOLONE                                ,IT,+44:11:51,+011:52:29, 250, TG3,20051231,20211230,   54,Valentina Pavan                                   
+17662,195736,LOIANO                                  ,IT,+44:15:59,+011:19:00, 745, TG3,20051231,20220130,   54,Valentina Pavan                                   
+ 2829,195448,GRANAROLO_FAENTINO                      ,IT,+44:21:36,+011:57:30,  15, TG3,20051231,20220130,   54,Valentina Pavan                                   
+ 2829,195744,LUGO DI ROMAGNA                         ,IT,+44:25:04,+011:54:48,  14, TG3,20130408,20150305,   54,Valentina Pavan                                   
+ 2829,197240,SANTAGATA_SUL_SANTERNO                  ,IT,+44:26:54,+011:51:59,  10, TG3,20051231,20220110,   54,Valentina Pavan                                   
+ 2829,197304,SANTERNO_SENIO_1                        ,IT,+44:24:03,+011:51:49,  16, TG3,20051231,20180501,   54,Valentina Pavan                                   
+17664,195760,MADONNA_DEI_FORNELLI                    ,IT,+44:12:56,+011:15:24, 900, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17666,195648,LANGHIRANO                              ,IT,+44:36:14,+010:15:39, 269, TG3,20051231,20210609,   54,Valentina Pavan                                   
+17666,195776,MAIATICO                                ,IT,+44:42:10,+010:12:22, 276, TG3,20051231,20170131,   54,Valentina Pavan                                   
+17667,195264,FERRARA                                 ,IT,+44:49:57,+011:37:16,  15, TG3,20051231,20190429,   54,Valentina Pavan                                   
+17667,195792,MALBORGHETTO                            ,IT,+44:51:28,+011:39:40,   4, TG3,20061003,20220130,   54,Valentina Pavan                                   
+17667,196640,PONTELAGOSCURO                          ,IT,+44:53:17,+011:36:29,   8, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17667,197960,FERRARA_URBANA                          ,IT,+44:49:56,+011:37:16,  26, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17667,916133,FERRARA                                 ,IT,+44:50:00,+011:37:00,  11, TG5,20050602,20200229,     ,                    
+17667,916138,FERRARA                                 ,IT,+44:49:00,+011:37:00,   9, TG5,20000915,20200229,     ,                    
+ 1733,195816,MARINA DI RAVENNA                       ,IT,+44:29:27,+012:17:02,   3, TG3,20180407,20220113,   54,Valentina Pavan                                   
+ 1733,196632,PONTE_CHIAVICA                          ,IT,+44:33:40,+012:14:37,   4, TG3,20051231,20070907,   54,Valentina Pavan                                   
+ 1733,196840,RAVENNA_LE_BASSETTE                     ,IT,+44:27:55,+012:12:19,   2, TG3,20051231,20131231,   54,Valentina Pavan                                   
+ 1733,198016,RAVENNA_URBANA                          ,IT,+44:24:53,+012:12:00,  27, TG3,20051231,20220130,   54,Valentina Pavan                                   
+ 1733,916145,PUNTA MARINA                            ,IT,+44:28:00,+012:17:00,   7, TG5,20050602,20090402,     ,                    
+ 1733,916146,PUNTA MARINA                            ,IT,+44:28:00,+012:17:00,   6, TG5,19820113,20200229,     ,                    
+17669,195824,MARMORTA                                ,IT,+44:37:19,+011:43:36,   6, TG3,20120430,20160412,   54,Valentina Pavan                                   
+17669,196320,OSPITALMONACALE                         ,IT,+44:40:06,+011:43:17,   0, TG3,20121231,20180220,   54,Valentina Pavan                                   
+17669,197208,SAN_PIETRO_CAPOFIUME                    ,IT,+44:39:13,+011:37:21,  11, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17669,197272,SANTANTONIO_ARPA                        ,IT,+44:34:07,+011:43:57,   8, TG3,20051231,20220130,   54,Valentina Pavan                                   
+ 2832,195832,MARRA CENTRALE                          ,IT,+44:28:24,+010:02:51, 618, TG3,20051231,20220130,   54,Valentina Pavan                                   
+ 2833,194176,BANDO                                   ,IT,+44:39:42,+011:51:08,  -2, TG3,20181107,20200130,   54,Valentina Pavan                                   
+ 2833,195848,MARTINELLA                              ,IT,+44:42:41,+011:53:04,   1, TG3,20210630,20220130,   54,Valentina Pavan                                   
+ 2833,195888,MEDELANA                                ,IT,+44:46:22,+011:52:02,   0, TG3,20121231,20180220,   54,Valentina Pavan                                   
+ 2833,195928,MEZZANO_NORD-OVEST                      ,IT,+44:40:10,+011:53:54,  -4, TG3,20181107,20200130,   54,Valentina Pavan                                   
+ 2833,196328,OSTELLATO                               ,IT,+44:42:26,+011:53:28,   0, TG3,20051231,20180220,   54,Valentina Pavan                                   
+ 2833,196992,SAIARINO                                ,IT,+44:37:21,+011:48:45,   8, TG3,20051231,20090527,   54,Valentina Pavan                                   
+ 2833,197416,SELLARINO_VOGHIERA                      ,IT,+44:44:47,+011:44:46,   3, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17670,195856,MARTORANO                               ,IT,+44:09:58,+012:16:04,  25, TG3,20060713,20220130,   54,Valentina Pavan                                   
+17670,197336,SAN_ZACCARIA                            ,IT,+44:15:26,+012:12:50,  10, TG3,20051231,20210629,   54,Valentina Pavan                                   
+17670,916148,CERVIA                                  ,IT,+44:13:00,+012:18:00,  10, TG5,20000526,20200229,     ,                    
+17671,194560,CAMPOGALLIANO                           ,IT,+44:41:36,+010:51:11,  40, TG3,20051231,20170306,   54,Valentina Pavan                                   
+17671,195864,MARZAGLIA                               ,IT,+44:38:13,+010:48:21,  54, TG3,20080923,20220130,   54,Valentina Pavan                                   
+17671,197944,MODENA_URBANA                           ,IT,+44:39:23,+010:55:01,  73, TG3,20051231,20220129,   54,Valentina Pavan                                   
+17671,916128,MODENA                                  ,IT,+44:39:00,+010:57:00,  34, TG5,20050411,20120613,     ,                    
+17674,195848,MARTINELLA                              ,IT,+44:42:41,+011:53:04,   1, TG3,20210630,20220130,   54,Valentina Pavan                                   
+17674,195888,MEDELANA                                ,IT,+44:46:22,+011:52:02,   0, TG3,20121231,20180220,   54,Valentina Pavan                                   
+17674,196328,OSTELLATO                               ,IT,+44:42:26,+011:53:28,   0, TG3,20051231,20180220,   54,Valentina Pavan                                   
+17674,197416,SELLARINO_VOGHIERA                      ,IT,+44:44:47,+011:44:46,   3, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17675,195896,MEDESANO                                ,IT,+44:44:33,+010:08:50, 104, TG3,20051231,20161022,   54,Valentina Pavan                                   
+17676,194984,CODIGORO                                ,IT,+44:50:06,+012:05:52,   2, TG3,20180407,20220130,   54,Valentina Pavan                                   
+17676,195912,MESOLA                                  ,IT,+44:55:09,+012:10:21,  -3, TG3,20121231,20200130,   54,Valentina Pavan                                   
+17676,196648,PONTE_MAODINO                           ,IT,+44:49:37,+012:07:58,  -3, TG3,20181107,20190530,   54,Valentina Pavan                                   
+17678,194176,BANDO                                   ,IT,+44:39:42,+011:51:08,  -2, TG3,20181107,20200130,   54,Valentina Pavan                                   
+17678,195848,MARTINELLA                              ,IT,+44:42:41,+011:53:04,   1, TG3,20210630,20220130,   54,Valentina Pavan                                   
+17678,195888,MEDELANA                                ,IT,+44:46:22,+011:52:02,   0, TG3,20121231,20180220,   54,Valentina Pavan                                   
+17678,195928,MEZZANO_NORD-OVEST                      ,IT,+44:40:10,+011:53:54,  -4, TG3,20181107,20200130,   54,Valentina Pavan                                   
+17678,196328,OSTELLATO                               ,IT,+44:42:26,+011:53:28,   0, TG3,20051231,20180220,   54,Valentina Pavan                                   
+17678,196992,SAIARINO                                ,IT,+44:37:21,+011:48:45,   8, TG3,20051231,20090527,   54,Valentina Pavan                                   
+17679,194472,BUDRIO_DONDINA                          ,IT,+44:31:19,+011:32:59,  30, TG3,20120430,20160505,   54,Valentina Pavan                                   
+17679,195936,MEZZOLARA                               ,IT,+44:34:15,+011:32:01,  20, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17679,197016,SALETTO                                 ,IT,+44:37:56,+011:26:28,  18, TG3,20100708,20220130,   54,Valentina Pavan                                   
+17680,195128,DIAMANTINA                              ,IT,+44:53:09,+011:30:42,   5, TG3,20121231,20180220,   54,Valentina Pavan                                   
+17680,195672,LA_VALLETTA                             ,IT,+44:54:52,+011:29:46,   6, TG3,20051231,20200130,   54,Valentina Pavan                                   
+17680,195952,MIRABELLO                               ,IT,+44:49:54,+011:27:15,  10, TG3,20051231,20220130,   54,Valentina Pavan                                   
+ 2836,195960,MIRANDOLA                               ,IT,+44:53:10,+011:00:59,  18, TG3,20051231,20210813,   54,Valentina Pavan                                   
+ 2836,196928,ROLO                                    ,IT,+44:53:05,+010:52:26,  20, TG3,20060124,20220114,   54,Valentina Pavan                                   
+ 2836,197104,SAN_FELICE_SUL_PANARO                   ,IT,+44:49:33,+011:07:32,  16, TG3,20051231,20220130,   54,Valentina Pavan                                   
+ 2838,194048,ALBARETO                                ,IT,+44:42:07,+010:57:24,  28, TG3,20051231,20220130,   54,Valentina Pavan                                   
+ 2838,194752,CASTELFRANCO_EMILIA                     ,IT,+44:37:52,+011:01:46,  32, TG3,20051231,20220130,   54,Valentina Pavan                                   
+ 2838,195864,MARZAGLIA                               ,IT,+44:38:13,+010:48:21,  54, TG3,20080923,20220130,   54,Valentina Pavan                                   
+ 2838,195968,MODENA                                  ,IT,+44:38:53,+010:56:04,  34, TG3,20051231,20190429,   54,Valentina Pavan                                   
+ 2838,916128,MODENA                                  ,IT,+44:39:00,+010:57:00,  34, TG5,20050411,20120613,     ,                    
+17681,195984,MODIGLIANA_ARPA                         ,IT,+44:07:12,+011:48:29, 556, TG3,20051231,20200130,   54,Valentina Pavan                                   
+17681,197672,TREBBIO                                 ,IT,+44:08:11,+011:50:13, 570, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17683,196016,MONGHIDORO                              ,IT,+44:12:51,+011:19:24, 825, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17684,196024,MONTEACUTO_DELLALPI                     ,IT,+44:08:10,+010:53:14, 900, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17689,196096,MONTEFIORINO                            ,IT,+44:19:41,+010:37:21, 632, TG3,20051231,20220130,   54,Valentina Pavan                                   
+ 2849,196104,MONTEGROPPO                             ,IT,+44:25:08,+009:41:11, 656, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17690,196112,MONTE_GROSSO                            ,IT,+44:04:17,+011:52:18, 670, TG3,20051231,20220130,   54,Valentina Pavan                                   
+ 2843,196120,MONTE IOTTONE                           ,IT,+43:59:29,+012:09:48, 417, TG3,20051231,20220130,   54,Valentina Pavan                                   
+  860,194488,CA_BORTOLANI                            ,IT,+44:20:48,+011:05:04, 691, TG3,20110615,20220130,   54,Valentina Pavan                                   
+  860,196128,MONTEOMBRARO                            ,IT,+44:22:35,+011:00:31, 700, TG3,20051231,20220130,   54,Valentina Pavan                                   
+ 2850,196160,MONTESE                                 ,IT,+44:16:37,+010:56:31, 920, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17695,194776,CASTELLAZZO_VILLANOVA_DARDA             ,IT,+45:00:09,+010:00:17,  41, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17695,196184,MONTICELLI_ARPA                         ,IT,+45:04:49,+009:58:15,  37, TG3,20051231,20081124,   54,Valentina Pavan                                   
+  861,196200,MONZUNO                                 ,IT,+44:16:36,+011:16:25, 600, TG3,20180407,20220130,   54,Valentina Pavan                                   
+17697,196208,MORCIANO                                ,IT,+43:54:42,+012:38:34,  65, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17698,196216,MORDANO_BUBANO                          ,IT,+44:25:15,+011:48:31,  16, TG3,20051231,20121026,   54,Valentina Pavan                                   
+17698,197240,SANTAGATA_SUL_SANTERNO                  ,IT,+44:26:54,+011:51:59,  10, TG3,20051231,20220110,   54,Valentina Pavan                                   
+17698,197304,SANTERNO_SENIO_1                        ,IT,+44:24:03,+011:51:49,  16, TG3,20051231,20180501,   54,Valentina Pavan                                   
+17698,197368,SASSO_MORELLI                           ,IT,+44:25:10,+011:45:14,  19, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17699,196224,MORMOROLA                               ,IT,+44:34:07,+009:53:11, 556, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17700,196232,MULAZZANO                               ,IT,+43:57:08,+012:32:10, 190, TG3,20051231,20200530,   54,Valentina Pavan                                   
+17701,196240,MUSIARA_SUPERIORE                       ,IT,+44:29:54,+010:10:42, 982, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17702,194592,CANOSSA                                 ,IT,+44:33:57,+010:27:56, 516, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17702,196248,NEVIANO_ARDUINI                         ,IT,+44:35:00,+010:18:49, 513, TG3,20051231,20220130,   54,Valentina Pavan                                   
+ 2852,196264,NOCIVEGLIA                              ,IT,+44:32:50,+009:36:36, 855, TG3,20051231,20220130,   54,Valentina Pavan                                   
+ 2852,197584,TARSOGNO                                ,IT,+44:26:48,+009:37:04, 852, TG3,20051231,20220130,   54,Valentina Pavan                                   
+ 2856,195256,FEBBIO                                  ,IT,+44:17:52,+010:25:38,1148, TG3,20051231,20220130,   54,Valentina Pavan                                   
+ 2856,196312,OSPITALETTO (OSPEDALETTO)               ,IT,+44:17:49,+010:19:00,1150, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17707,195824,MARMORTA                                ,IT,+44:37:19,+011:43:36,   6, TG3,20120430,20160412,   54,Valentina Pavan                                   
+17707,196320,OSPITALMONACALE                         ,IT,+44:40:06,+011:43:17,   0, TG3,20121231,20180220,   54,Valentina Pavan                                   
+17707,196992,SAIARINO                                ,IT,+44:37:21,+011:48:45,   8, TG3,20051231,20090527,   54,Valentina Pavan                                   
+17707,197208,SAN_PIETRO_CAPOFIUME                    ,IT,+44:39:13,+011:37:21,  11, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17707,197256,SANTA_MARIA_CODIFIUME                   ,IT,+44:41:06,+011:40:24,   5, TG3,20121231,20180219,   54,Valentina Pavan                                   
+17707,197272,SANTANTONIO_ARPA                        ,IT,+44:34:07,+011:43:57,   8, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17707,197416,SELLARINO_VOGHIERA                      ,IT,+44:44:47,+011:44:46,   3, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17708,194176,BANDO                                   ,IT,+44:39:42,+011:51:08,  -2, TG3,20181107,20200130,   54,Valentina Pavan                                   
+17708,195848,MARTINELLA                              ,IT,+44:42:41,+011:53:04,   1, TG3,20210630,20220130,   54,Valentina Pavan                                   
+17708,195888,MEDELANA                                ,IT,+44:46:22,+011:52:02,   0, TG3,20121231,20180220,   54,Valentina Pavan                                   
+17708,195928,MEZZANO_NORD-OVEST                      ,IT,+44:40:10,+011:53:54,  -4, TG3,20181107,20200130,   54,Valentina Pavan                                   
+17708,196328,OSTELLATO                               ,IT,+44:42:26,+011:53:28,   0, TG3,20051231,20180220,   54,Valentina Pavan                                   
+17708,196992,SAIARINO                                ,IT,+44:37:21,+011:48:45,   8, TG3,20051231,20090527,   54,Valentina Pavan                                   
+17708,197416,SELLARINO_VOGHIERA                      ,IT,+44:44:47,+011:44:46,   3, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17709,196336,OSTIA_PARMENSE                          ,IT,+44:30:50,+009:50:31, 354, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17710,194368,BOLOGNA_SAN_LUCA                        ,IT,+44:28:43,+011:17:54, 286, TG3,20090724,20220130,   54,Valentina Pavan                                   
+17710,196344,PADERNO                                 ,IT,+44:26:49,+011:18:57, 267, TG3,20140206,20220130,   54,Valentina Pavan                                   
+17710,197360,SASSO_MARCONI_ARPA                      ,IT,+44:26:22,+011:14:28, 275, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17711,194720,CASSA_DOSOLO                            ,IT,+44:39:14,+011:16:06,  22, TG3,20141224,20220130,   54,Valentina Pavan                                   
+17711,196360,PADULLE_SALA_BOLOGNESE                  ,IT,+44:37:39,+011:17:26,  25, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17711,197016,SALETTO                                 ,IT,+44:37:56,+011:26:28,  18, TG3,20100708,20220130,   54,Valentina Pavan                                   
+17711,916140,BOLOGNA/BORGO PANIGALE                  ,IT,+44:32:00,+011:18:00,  37, TG5,19820113,20200229,     ,                    
+17713,196376,PANOCCHIA                               ,IT,+44:40:58,+010:17:46,  18, TG3,20051231,20190530,   54,Valentina Pavan                                   
+17715,196400,PARMA_T.P.                              ,IT,+44:48:29,+010:19:49,3719, TG3,20051231,20101209,   54,Valentina Pavan                                   
+17717,196416,PASSO_DELLE_RADICI                      ,IT,+44:12:35,+010:29:19,1535, TG3,20051231,20220130,   54,Valentina Pavan                                   
+ 2860,196440,PAVULLO NEL FRIGNANO                    ,IT,+44:19:10,+010:49:42, 678, TG3,20051231,20220130,   54,Valentina Pavan                                   
+ 2862,196456,PENNABILLI                              ,IT,+43:49:11,+012:16:27, 629, TG3,20070522,20220130,   54,Valentina Pavan                                   
+17723,196488,PIACENZA_URBANA                         ,IT,+45:03:17,+009:40:46,  71, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17723,197184,SAN_NICOLO                              ,IT,+45:02:29,+009:35:22,  68, TG3,20051231,20220129,   54,Valentina Pavan                                   
+ 2865,196504,PIANDELAGOTTI                           ,IT,+44:14:14,+010:30:59,1219, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17725,196512,PIANELLO_VAL_TIDONE                     ,IT,+44:57:03,+009:24:06, 185, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17726,196544,PIEVE_DI_CUSIGNANO                      ,IT,+44:46:49,+010:02:19, 277, TG3,20051231,20211120,   54,Valentina Pavan                                   
+17727,195384,FRASSINORO                              ,IT,+44:17:44,+010:34:32,1091, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17727,196552,PIEVEPELAGO                             ,IT,+44:11:39,+010:34:38,1083, TG3,20120407,20220130,   54,Valentina Pavan                                   
+17729,195416,GALLO                                   ,IT,+44:43:26,+011:32:43,  21, TG3,20051231,20111103,   54,Valentina Pavan                                   
+17729,195952,MIRABELLO                               ,IT,+44:49:54,+011:27:15,  10, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17729,196576,POGGIO_RENATICO                         ,IT,+44:45:55,+011:28:58,  10, TG3,20121231,20180220,   54,Valentina Pavan                                   
+17729,916138,FERRARA                                 ,IT,+44:49:00,+011:37:00,   9, TG5,20000915,20200229,     ,                    
+ 2870,196592,POLINAGO                                ,IT,+44:20:37,+010:43:47, 754, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17730,196600,POMPOSA-VOLANO                          ,IT,+44:48:48,+012:12:17,4394, TG3,20130502,20180923,   54,Valentina Pavan                                   
+17733,196624,PONTE_CAVOLA                            ,IT,+44:24:33,+010:31:22, 367, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17734,195816,MARINA DI RAVENNA                       ,IT,+44:29:27,+012:17:02,   3, TG3,20180407,20220113,   54,Valentina Pavan                                   
+17734,196632,PONTE_CHIAVICA                          ,IT,+44:33:40,+012:14:37,   4, TG3,20051231,20070907,   54,Valentina Pavan                                   
+17734,196840,RAVENNA_LE_BASSETTE                     ,IT,+44:27:55,+012:12:19,   2, TG3,20051231,20131231,   54,Valentina Pavan                                   
+17734,220992,UMANA                                   ,IT,+44:33:10,+012:06:34,   1, TG3,20211031,20220130,   54,Valentina Pavan                                   
+17734,916145,PUNTA MARINA                            ,IT,+44:28:00,+012:17:00,   7, TG5,20050602,20090402,     ,                    
+17734,916146,PUNTA MARINA                            ,IT,+44:28:00,+012:17:00,   6, TG5,19820113,20200229,     ,                    
+17735,195792,MALBORGHETTO                            ,IT,+44:51:28,+011:39:40,   4, TG3,20061003,20220130,   54,Valentina Pavan                                   
+17735,196640,PONTELAGOSCURO                          ,IT,+44:53:17,+011:36:29,   8, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17735,197960,FERRARA_URBANA                          ,IT,+44:49:56,+011:37:16,  26, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17735,916133,FERRARA                                 ,IT,+44:50:00,+011:37:00,  11, TG5,20050602,20200229,     ,                    
+17735,916138,FERRARA                                 ,IT,+44:49:00,+011:37:00,   9, TG5,20000915,20200229,     ,                    
+17736,194984,CODIGORO                                ,IT,+44:50:06,+012:05:52,   2, TG3,20180407,20220130,   54,Valentina Pavan                                   
+17736,195088,CORTE_CENTRALE                          ,IT,+44:47:13,+012:01:39,  -2, TG3,20181107,20200130,   54,Valentina Pavan                                   
+17736,195432,GIRALDA                                 ,IT,+44:48:51,+012:14:54,   3, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17736,195912,MESOLA                                  ,IT,+44:55:09,+012:10:21,  -3, TG3,20121231,20200130,   54,Valentina Pavan                                   
+17736,196648,PONTE_MAODINO                           ,IT,+44:49:37,+012:07:58,  -3, TG3,20181107,20190530,   54,Valentina Pavan                                   
+17736,197856,VOLANO                                  ,IT,+44:48:46,+012:15:01,   1, TG3,20060718,20181016,   54,Valentina Pavan                                   
+17741,195096,CORTILE_DI_CARPI                        ,IT,+44:46:42,+010:58:16,  23, TG3,20070325,20220130,   54,Valentina Pavan                                   
+17741,195960,MIRANDOLA                               ,IT,+44:53:10,+011:00:59,  18, TG3,20051231,20210813,   54,Valentina Pavan                                   
+17741,196688,PONTICELLI                              ,IT,+44:48:56,+010:56:04,  21, TG3,20181213,20200130,   54,Valentina Pavan                                   
+17741,196928,ROLO                                    ,IT,+44:53:05,+010:52:26,  20, TG3,20060124,20220114,   54,Valentina Pavan                                   
+  862,196704,PORRETTA TERME                          ,IT,+44:09:15,+010:58:38, 352, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17743,195480,GUAGNINO                                ,IT,+44:41:18,+012:12:41,   1, TG3,20100708,20220130,   54,Valentina Pavan                                   
+17743,196712,PORTO_GARIBALDI                         ,IT,+44:40:36,+012:14:57,   0, TG3,20141224,20200130,   54,Valentina Pavan                                   
+ 2872,196728,PRACCHIA                                ,IT,+44:03:14,+010:54:20, 620, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17745,196752,PREDOLO                                 ,IT,+44:29:03,+010:26:48, 751, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17747,195040,COPPARO                                 ,IT,+44:54:59,+011:49:17,   1, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17747,195792,MALBORGHETTO                            ,IT,+44:51:28,+011:39:40,   4, TG3,20061003,20220130,   54,Valentina Pavan                                   
+17747,196784,QUARTESANA                              ,IT,+44:49:05,+011:44:56,   2, TG3,20121231,20180220,   54,Valentina Pavan                                   
+17747,197416,SELLARINO_VOGHIERA                      ,IT,+44:44:47,+011:44:46,   3, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17747,197960,FERRARA_URBANA                          ,IT,+44:49:56,+011:37:16,  26, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17747,916133,FERRARA                                 ,IT,+44:50:00,+011:37:00,  11, TG5,20050602,20200229,     ,                    
+17747,916138,FERRARA                                 ,IT,+44:49:00,+011:37:00,   9, TG5,20000915,20200229,     ,                    
+17748,196792,QUARTO                                  ,IT,+43:53:31,+012:05:42, 247, TG3,20051231,20220130,   54,Valentina Pavan                                   
+ 2879,196816,RAMISETO                                ,IT,+44:24:41,+010:16:32, 798, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17751,195816,MARINA DI RAVENNA                       ,IT,+44:29:27,+012:17:02,   3, TG3,20180407,20220113,   54,Valentina Pavan                                   
+17751,196632,PONTE_CHIAVICA                          ,IT,+44:33:40,+012:14:37,   4, TG3,20051231,20070907,   54,Valentina Pavan                                   
+17751,196840,RAVENNA_LE_BASSETTE                     ,IT,+44:27:55,+012:12:19,   2, TG3,20051231,20131231,   54,Valentina Pavan                                   
+17751,220992,UMANA                                   ,IT,+44:33:10,+012:06:34,   1, TG3,20211031,20220130,   54,Valentina Pavan                                   
+17751,916145,PUNTA MARINA                            ,IT,+44:28:00,+012:17:00,   7, TG5,20050602,20090402,     ,                    
+17751,916146,PUNTA MARINA                            ,IT,+44:28:00,+012:17:00,   6, TG5,19820113,20200229,     ,                    
+17752,195352,FORLI_URBANA                            ,IT,+44:13:13,+012:02:30,  51, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17752,195448,GRANAROLO_FAENTINO                      ,IT,+44:21:36,+011:57:30,  15, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17752,196848,REDA_DI_FAENZA                          ,IT,+44:16:33,+011:55:25,  32, TG3,20051231,20190530,   54,Valentina Pavan                                   
+ 2882,195072,CORREGGIO                               ,IT,+44:44:35,+010:46:22,  33, TG3,20051231,20220130,   54,Valentina Pavan                                   
+ 2882,196856,REGGIO NELL'EMILIA (COVIOLO)            ,IT,+44:42:00,+010:38:08,  51, TG3,20051231,20190429,   54,Valentina Pavan                                   
+ 2882,198104,REGGIO_NELLEMILIA_URBANA                ,IT,+44:41:52,+010:38:01,  72, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17753,196864,RIFUGIO_BARGETANA                       ,IT,+44:15:39,+010:23:53,1729, TG3,20051231,20061014,   54,Valentina Pavan                                   
+ 1736,196896,RIMINI                                  ,IT,+44:03:31,+012:34:47,   7, TG3,20110407,20190429,   54,Valentina Pavan                                   
+ 1736,197896,RIMINI_URBANA                           ,IT,+44:03:33,+012:34:24,  16, TG3,20051231,20220130,   54,Valentina Pavan                                   
+ 1736,197904,RIMINI_AUSA                             ,IT,+44:03:23,+012:32:43,  10, TG3,20110407,20220130,   54,Valentina Pavan                                   
+ 1736,916149,RIMINI                                  ,IT,+44:02:00,+012:37:00,  13, TG5,19820114,20200229,     ,                    
+17757,196904,RIOLA_DI_LABANTE                        ,IT,+44:15:40,+011:02:07, 623, TG3,20180407,20190429,   54,Valentina Pavan                                   
+ 2885,196920,ROCCA SAN CASCIANO                      ,IT,+44:03:12,+011:50:31, 255, TG3,20180407,20220130,   54,Valentina Pavan                                   
+17758,195960,MIRANDOLA                               ,IT,+44:53:10,+011:00:59,  18, TG3,20051231,20210813,   54,Valentina Pavan                                   
+17758,196688,PONTICELLI                              ,IT,+44:48:56,+010:56:04,  21, TG3,20181213,20200130,   54,Valentina Pavan                                   
+17758,196928,ROLO                                    ,IT,+44:53:05,+010:52:26,  20, TG3,20060124,20220114,   54,Valentina Pavan                                   
+17760,196944,RONCOVETRO                              ,IT,+44:31:03,+010:22:52, 571, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17761,196952,RONTANA                                 ,IT,+44:13:37,+011:44:16, 370, TG3,20070501,20220130,   54,Valentina Pavan                                   
+16659,196960,ROVEGNO                                 ,IT,+44:34:33,+009:16:57, 686, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17762,196968,ROVERSANO                               ,IT,+44:05:08,+012:12:24, 175, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17765,194176,BANDO                                   ,IT,+44:39:42,+011:51:08,  -2, TG3,20181107,20200130,   54,Valentina Pavan                                   
+17765,195688,LAVEZZOLA                               ,IT,+44:33:48,+011:50:38,   5, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17765,195824,MARMORTA                                ,IT,+44:37:19,+011:43:36,   6, TG3,20120430,20160412,   54,Valentina Pavan                                   
+17765,196992,SAIARINO                                ,IT,+44:37:21,+011:48:45,   8, TG3,20051231,20090527,   54,Valentina Pavan                                   
+17765,197272,SANTANTONIO_ARPA                        ,IT,+44:34:07,+011:43:57,   8, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17768,195936,MEZZOLARA                               ,IT,+44:34:15,+011:32:01,  20, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17768,197016,SALETTO                                 ,IT,+44:37:56,+011:26:28,  18, TG3,20100708,20220130,   54,Valentina Pavan                                   
+16736,197024,SALSOMAGGIORE                           ,IT,+44:49:08,+009:59:28, 161, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17769,197032,SALSOMINORE                             ,IT,+44:37:57,+009:24:19, 408, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17771,195264,FERRARA                                 ,IT,+44:49:57,+011:37:16,  15, TG3,20051231,20190429,   54,Valentina Pavan                                   
+17771,195400,GAIBANELLA                              ,IT,+44:46:08,+011:39:45,   3, TG3,20181107,20200130,   54,Valentina Pavan                                   
+17771,195416,GALLO                                   ,IT,+44:43:26,+011:32:43,  21, TG3,20051231,20111103,   54,Valentina Pavan                                   
+17771,197056,SAN_BARTOLOMEO_IN_BOSCO                 ,IT,+44:44:29,+011:36:23,   8, TG3,20121231,20180220,   54,Valentina Pavan                                   
+17771,197208,SAN_PIETRO_CAPOFIUME                    ,IT,+44:39:13,+011:37:21,  11, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17771,197256,SANTA_MARIA_CODIFIUME                   ,IT,+44:41:06,+011:40:24,   5, TG3,20121231,20180219,   54,Valentina Pavan                                   
+17771,197960,FERRARA_URBANA                          ,IT,+44:49:56,+011:37:16,  26, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17771,916133,FERRARA                                 ,IT,+44:50:00,+011:37:00,  11, TG5,20050602,20200229,     ,                    
+17771,916138,FERRARA                                 ,IT,+44:49:00,+011:37:00,   9, TG5,20000915,20200229,     ,                    
+17772,194920,CESENA_URBANA                           ,IT,+44:08:17,+012:14:37,  77, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17772,197080,SAN_CARLO                               ,IT,+44:05:27,+012:11:59,  54, TG3,20051231,20150826,   54,Valentina Pavan                                   
+ 2889,197088,SAN CASSIANO                            ,IT,+44:08:54,+011:41:30, 230, TG3,20140216,20220130,   54,Valentina Pavan                                   
+ 2889,197800,VESPIGNANO                              ,IT,+44:13:58,+011:43:10, 208, TG3,20110501,20161011,   54,Valentina Pavan                                   
+17773,195288,FINALE_EMILIA                           ,IT,+44:48:56,+011:15:04,  16, TG3,20060531,20220130,   54,Valentina Pavan                                   
+17773,197104,SAN_FELICE_SUL_PANARO                   ,IT,+44:49:33,+011:07:32,  16, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17777,195432,GIRALDA                                 ,IT,+44:48:51,+012:14:54,   3, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17777,195480,GUAGNINO                                ,IT,+44:41:18,+012:12:41,   1, TG3,20100708,20220130,   54,Valentina Pavan                                   
+17777,195616,LAGOSANTO                               ,IT,+44:44:22,+012:08:55,  -4, TG3,20181107,20200130,   54,Valentina Pavan                                   
+17777,196712,PORTO_GARIBALDI                         ,IT,+44:40:36,+012:14:57,   0, TG3,20141224,20200130,   54,Valentina Pavan                                   
+17777,197136,SAN_GIUSEPPE                            ,IT,+44:43:49,+012:11:09,  -5, TG3,20181213,20200130,   54,Valentina Pavan                                   
+17777,197856,VOLANO                                  ,IT,+44:48:46,+012:15:01,   1, TG3,20060718,20181016,   54,Valentina Pavan                                   
+ 2891,197152,SAN MARINO                              ,IT,+43:56:15,+012:26:47, 680, TG3,20060726,20220130,   54,Valentina Pavan                                   
+17779,197168,SAN_MICHELE                             ,IT,+44:45:45,+009:42:08, 662, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17780,196488,PIACENZA_URBANA                         ,IT,+45:03:17,+009:40:46,  71, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17780,197184,SAN_NICOLO                              ,IT,+45:02:29,+009:35:22,  68, TG3,20051231,20220129,   54,Valentina Pavan                                   
+17781,197192,SAN_PANCRAZIO                           ,IT,+44:48:29,+010:16:20,  59, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17781,197936,PARMA_URBANA                            ,IT,+44:48:28,+010:19:49,  79, TG3,20190430,20211129,   54,Valentina Pavan                                   
+17781,916130,PARMA                                   ,IT,+44:49:00,+010:17:00,  52, TG5,20050409,20141125,     ,                    
+17783,195416,GALLO                                   ,IT,+44:43:26,+011:32:43,  21, TG3,20051231,20111103,   54,Valentina Pavan                                   
+17783,195936,MEZZOLARA                               ,IT,+44:34:15,+011:32:01,  20, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17783,197208,SAN_PIETRO_CAPOFIUME                    ,IT,+44:39:13,+011:37:21,  11, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17783,197256,SANTA_MARIA_CODIFIUME                   ,IT,+44:41:06,+011:40:24,   5, TG3,20121231,20180219,   54,Valentina Pavan                                   
+17784,197216,SAN_PIETRO_IN_VINCOLI                   ,IT,+44:18:50,+012:09:36,   5, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17784,197336,SAN_ZACCARIA                            ,IT,+44:15:26,+012:12:50,  10, TG3,20051231,20210629,   54,Valentina Pavan                                   
+17786,194720,CASSA_DOSOLO                            ,IT,+44:39:14,+011:16:06,  22, TG3,20141224,20220130,   54,Valentina Pavan                                   
+17786,194752,CASTELFRANCO_EMILIA                     ,IT,+44:37:52,+011:01:46,  32, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17786,197232,SANTAGATA_BOLOGNESE                     ,IT,+44:41:42,+011:08:41,  18, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17787,197240,SANTAGATA_SUL_SANTERNO                  ,IT,+44:26:54,+011:51:59,  10, TG3,20051231,20220110,   54,Valentina Pavan                                   
+17787,197304,SANTERNO_SENIO_1                        ,IT,+44:24:03,+011:51:49,  16, TG3,20051231,20180501,   54,Valentina Pavan                                   
+17787,197368,SASSO_MORELLI                           ,IT,+44:25:10,+011:45:14,  19, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17789,196320,OSPITALMONACALE                         ,IT,+44:40:06,+011:43:17,   0, TG3,20121231,20180220,   54,Valentina Pavan                                   
+17789,197208,SAN_PIETRO_CAPOFIUME                    ,IT,+44:39:13,+011:37:21,  11, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17789,197256,SANTA_MARIA_CODIFIUME                   ,IT,+44:41:06,+011:40:24,   5, TG3,20121231,20180219,   54,Valentina Pavan                                   
+17789,197416,SELLARINO_VOGHIERA                      ,IT,+44:44:47,+011:44:46,   3, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17791,195688,LAVEZZOLA                               ,IT,+44:33:48,+011:50:38,   5, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17791,195824,MARMORTA                                ,IT,+44:37:19,+011:43:36,   6, TG3,20120430,20160412,   54,Valentina Pavan                                   
+17791,197272,SANTANTONIO_ARPA                        ,IT,+44:34:07,+011:43:57,   8, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17794,195448,GRANAROLO_FAENTINO                      ,IT,+44:21:36,+011:57:30,  15, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17794,195744,LUGO DI ROMAGNA                         ,IT,+44:25:04,+011:54:48,  14, TG3,20130408,20150305,   54,Valentina Pavan                                   
+17794,196216,MORDANO_BUBANO                          ,IT,+44:25:15,+011:48:31,  16, TG3,20051231,20121026,   54,Valentina Pavan                                   
+17794,197240,SANTAGATA_SUL_SANTERNO                  ,IT,+44:26:54,+011:51:59,  10, TG3,20051231,20220110,   54,Valentina Pavan                                   
+17794,197304,SANTERNO_SENIO_1                        ,IT,+44:24:03,+011:51:49,  16, TG3,20051231,20180501,   54,Valentina Pavan                                   
+17794,197368,SASSO_MORELLI                           ,IT,+44:25:10,+011:45:14,  19, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17795,195528,IMOLA                                   ,IT,+44:20:45,+011:42:46,  42, TG3,20111115,20220130,   54,Valentina Pavan                                   
+17795,195744,LUGO DI ROMAGNA                         ,IT,+44:25:04,+011:54:48,  14, TG3,20130408,20150305,   54,Valentina Pavan                                   
+17795,196216,MORDANO_BUBANO                          ,IT,+44:25:15,+011:48:31,  16, TG3,20051231,20121026,   54,Valentina Pavan                                   
+17795,197240,SANTAGATA_SUL_SANTERNO                  ,IT,+44:26:54,+011:51:59,  10, TG3,20051231,20220110,   54,Valentina Pavan                                   
+17795,197304,SANTERNO_SENIO_1                        ,IT,+44:24:03,+011:51:49,  16, TG3,20051231,20180501,   54,Valentina Pavan                                   
+17795,197312,SANTERNO_SENIO_2                        ,IT,+44:22:05,+011:50:19,  19, TG3,20051231,20130410,   54,Valentina Pavan                                   
+17795,197368,SASSO_MORELLI                           ,IT,+44:25:10,+011:45:14,  19, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17796,197320,SANTO_STEFANO_DAVETO                    ,IT,+44:32:45,+009:27:00,1007, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17797,197328,SAN_VALENTINO                           ,IT,+44:31:25,+010:41:57, 302, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17798,197216,SAN_PIETRO_IN_VINCOLI                   ,IT,+44:18:50,+012:09:36,   5, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17798,197336,SAN_ZACCARIA                            ,IT,+44:15:26,+012:12:50,  10, TG3,20051231,20210629,   54,Valentina Pavan                                   
+17798,916148,CERVIA                                  ,IT,+44:13:00,+012:18:00,  10, TG5,20000526,20200229,     ,                    
+17799,194368,BOLOGNA_SAN_LUCA                        ,IT,+44:28:43,+011:17:54, 286, TG3,20090724,20220130,   54,Valentina Pavan                                   
+17799,197360,SASSO_MARCONI_ARPA                      ,IT,+44:26:22,+011:14:28, 275, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17800,195528,IMOLA                                   ,IT,+44:20:45,+011:42:46,  42, TG3,20111115,20220130,   54,Valentina Pavan                                   
+17800,197240,SANTAGATA_SUL_SANTERNO                  ,IT,+44:26:54,+011:51:59,  10, TG3,20051231,20220110,   54,Valentina Pavan                                   
+17800,197304,SANTERNO_SENIO_1                        ,IT,+44:24:03,+011:51:49,  16, TG3,20051231,20180501,   54,Valentina Pavan                                   
+17800,197368,SASSO_MORELLI                           ,IT,+44:25:10,+011:45:14,  19, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17801,195528,IMOLA                                   ,IT,+44:20:45,+011:42:46,  42, TG3,20111115,20220130,   54,Valentina Pavan                                   
+17801,197304,SANTERNO_SENIO_1                        ,IT,+44:24:03,+011:51:49,  16, TG3,20051231,20180501,   54,Valentina Pavan                                   
+17801,197368,SASSO_MORELLI                           ,IT,+44:25:10,+011:45:14,  19, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17801,197376,SASSO_MORELLI_BEGHINA                   ,IT,+44:23:50,+011:43:27,  28, TG3,20120503,20160506,   54,Valentina Pavan                                   
+17802,197384,SASSOSTORNO                             ,IT,+44:15:33,+010:40:26, 971, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17806,195848,MARTINELLA                              ,IT,+44:42:41,+011:53:04,   1, TG3,20210630,20220130,   54,Valentina Pavan                                   
+17806,196784,QUARTESANA                              ,IT,+44:49:05,+011:44:56,   2, TG3,20121231,20180220,   54,Valentina Pavan                                   
+17806,197416,SELLARINO_VOGHIERA                      ,IT,+44:44:47,+011:44:46,   3, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17807,197424,SELVA_FERRIERE                          ,IT,+44:35:12,+009:28:56,1109, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17808,197432,SELVANIZZA                              ,IT,+44:26:23,+010:14:08, 474, TG3,20140628,20220130,   54,Valentina Pavan                                   
+11611,197456,SERMIDE (SP 91)                         ,IT,+45:01:00,+011:17:24,  10, TG3,20051231,20200130,   54,Valentina Pavan                                   
+17811,194824,CASTENASO_VILLANOVA                     ,IT,+44:29:24,+011:25:45,  51, TG3,20120502,20160504,   54,Valentina Pavan                                   
+17811,196360,PADULLE_SALA_BOLOGNESE                  ,IT,+44:37:39,+011:17:26,  25, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17811,197016,SALETTO                                 ,IT,+44:37:56,+011:26:28,  18, TG3,20100708,20220130,   54,Valentina Pavan                                   
+17811,197464,SERPIERI                                ,IT,+44:32:54,+011:22:02,  28, TG3,20181031,20220130,   54,Valentina Pavan                                   
+17811,916140,BOLOGNA/BORGO PANIGALE                  ,IT,+44:32:00,+011:18:00,  37, TG5,19820113,20200229,     ,                    
+17812,197472,SERRAMAZZONI                            ,IT,+44:25:43,+010:47:13, 826, TG3,20051231,20220130,   54,Valentina Pavan                                   
+ 2904,197384,SASSOSTORNO                             ,IT,+44:15:33,+010:40:26, 971, TG3,20051231,20220130,   54,Valentina Pavan                                   
+ 2904,197480,SESTOLA                                 ,IT,+44:13:56,+010:46:07, 985, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17813,197488,SETTEFONTI                              ,IT,+44:24:09,+011:27:41, 330, TG3,20060201,20220130,   54,Valentina Pavan                                   
+17814,195016,COLORNO                                 ,IT,+44:56:37,+010:20:58,  29, TG3,20051231,20161124,   54,Valentina Pavan                                   
+17814,195408,GAINAGO                                 ,IT,+44:53:07,+010:22:50,  28, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17814,197496,SISSA                                   ,IT,+44:57:08,+010:15:33,  32, TG3,20051231,20170131,   54,Valentina Pavan                                   
+17815,195648,LANGHIRANO                              ,IT,+44:36:14,+010:15:39, 269, TG3,20051231,20210609,   54,Valentina Pavan                                   
+17815,197504,SIVIZZANO                               ,IT,+44:38:33,+010:21:25, 258, TG3,20051231,20170131,   54,Valentina Pavan                                   
+17822,197584,TARSOGNO                                ,IT,+44:26:48,+009:37:04, 852, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17824,197600,TEODORANO                               ,IT,+44:05:29,+012:05:05,  79, TG3,20070111,20190211,   54,Valentina Pavan                                   
+17826,197624,TERUZZI                                 ,IT,+44:41:42,+009:41:06,1077, TG3,20051231,20201030,   54,Valentina Pavan                                   
+17828,197640,TORRIGLIA                               ,IT,+44:30:53,+009:09:16, 769, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17830,197664,TREBBIA_VALSIGIARA                      ,IT,+44:38:24,+009:19:48, 462, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17831,195984,MODIGLIANA_ARPA                         ,IT,+44:07:12,+011:48:29, 556, TG3,20051231,20200130,   54,Valentina Pavan                                   
+17831,197672,TREBBIO                                 ,IT,+44:08:11,+011:50:13, 570, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17832,197688,TREPPIO                                 ,IT,+44:04:53,+011:01:58, 650, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17833,197696,VALDENA                                 ,IT,+44:26:38,+009:47:03, 762, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17837,197728,VALSENIO                                ,IT,+44:14:51,+011:39:03, 164, TG3,20110501,20150204,   54,Valentina Pavan                                   
+17839,197752,VARANO_MARCHESI                         ,IT,+44:45:00,+010:01:08, 225, TG3,20051231,20220130,   54,Valentina Pavan                                   
+ 2913,197768,VARSI                                   ,IT,+44:38:58,+009:49:16, 451, TG3,20051231,20220130,   54,Valentina Pavan                                   
+ 2916,197776,VERGATO                                 ,IT,+44:17:16,+011:06:47, 193, TG3,20110701,20220130,   54,Valentina Pavan                                   
+17841,197792,VERGIANO                                ,IT,+44:02:04,+012:30:01,  36, TG3,20051231,20210709,   54,Valentina Pavan                                   
+17841,197896,RIMINI_URBANA                           ,IT,+44:03:33,+012:34:24,  16, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17841,916149,RIMINI                                  ,IT,+44:02:00,+012:37:00,  13, TG5,19820114,20200229,     ,                    
+17842,197088,SAN CASSIANO                            ,IT,+44:08:54,+011:41:30, 230, TG3,20140216,20220130,   54,Valentina Pavan                                   
+17842,197800,VESPIGNANO                              ,IT,+44:13:58,+011:43:10, 208, TG3,20110501,20161011,   54,Valentina Pavan                                   
+17843,197816,VICOBARONE                              ,IT,+44:59:29,+009:22:43, 263, TG3,20051231,20071124,   54,Valentina Pavan                                   
+17843,218208,ALBARETO_-_CARAFFINI                    ,IT,+44:58:47,+009:25:00, 254, TG3,20200531,20220130,   54,Valentina Pavan                                   
+17844,197824,VIGNOLA                                 ,IT,+44:29:00,+010:58:59, 115, TG3,20060118,20220130,   54,Valentina Pavan                                   
+17845,197832,VILLA_GHIGI                             ,IT,+44:28:33,+011:19:31, 203, TG3,20181001,20190218,   54,Valentina Pavan                                   
+ 2920,195248,FARNETA CENTRALE                        ,IT,+44:21:00,+010:34:12, 703, TG3,20051231,20220130,   54,Valentina Pavan                                   
+ 2920,197840,VILLA MINOZZO                           ,IT,+44:21:45,+010:27:36, 704, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17847,194984,CODIGORO                                ,IT,+44:50:06,+012:05:52,   2, TG3,20180407,20220130,   54,Valentina Pavan                                   
+17847,195432,GIRALDA                                 ,IT,+44:48:51,+012:14:54,   3, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17847,195616,LAGOSANTO                               ,IT,+44:44:22,+012:08:55,  -4, TG3,20181107,20200130,   54,Valentina Pavan                                   
+17847,197136,SAN_GIUSEPPE                            ,IT,+44:43:49,+012:11:09,  -5, TG3,20181213,20200130,   54,Valentina Pavan                                   
+17847,197856,VOLANO                                  ,IT,+44:48:46,+012:15:01,   1, TG3,20060718,20181016,   54,Valentina Pavan                                   
+17849,197872,VOLTRE                                  ,IT,+44:01:56,+012:02:35, 270, TG3,20051231,20220130,   54,Valentina Pavan                                   
+ 2922,194776,CASTELLAZZO_VILLANOVA_DARDA             ,IT,+45:00:09,+010:00:17,  41, TG3,20051231,20220130,   54,Valentina Pavan                                   
+ 2922,197880,ZIBELLO                                 ,IT,+45:01:10,+010:07:34,  35, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17850,100862,BOLOGNA                                 ,IT,+44:30:00,+011:20:46,  53, TG5,18140101,20031231,   20,Maurizio Maugeri                                  
+17850,194360,BOLOGNA_IDROGRAFICO                     ,IT,+44:29:59,+011:20:46,  84, TG3,20150924,20220130,   54,Valentina Pavan                                   
+17850,194384,BOLOGNA_URBANA                          ,IT,+44:30:02,+011:19:43,  78, TG3,20051231,20220115,   54,Valentina Pavan                                   
+17850,197888,ZOLA_PREDOSA                            ,IT,+44:29:46,+011:12:00,  65, TG3,20051231,20190429,   54,Valentina Pavan                                   
+17850,916132,BOLOGNA                                 ,IT,+44:32:00,+011:17:00,  53, TG5,20050520,20191127,     ,                    
+17851,196896,RIMINI                                  ,IT,+44:03:31,+012:34:47,   7, TG3,20110407,20190429,   54,Valentina Pavan                                   
+17851,197896,RIMINI_URBANA                           ,IT,+44:03:33,+012:34:24,  16, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17851,197904,RIMINI_AUSA                             ,IT,+44:03:23,+012:32:43,  10, TG3,20110407,20220130,   54,Valentina Pavan                                   
+17851,916149,RIMINI                                  ,IT,+44:02:00,+012:37:00,  13, TG5,19820114,20200229,     ,                    
+17852,197896,RIMINI_URBANA                           ,IT,+44:03:33,+012:34:24,  16, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17852,197904,RIMINI_AUSA                             ,IT,+44:03:23,+012:32:43,  10, TG3,20110407,20220130,   54,Valentina Pavan                                   
+17852,916149,RIMINI                                  ,IT,+44:02:00,+012:37:00,  13, TG5,19820114,20200229,     ,                    
+17856,197192,SAN_PANCRAZIO                           ,IT,+44:48:29,+010:16:20,  59, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17856,197936,PARMA_URBANA                            ,IT,+44:48:28,+010:19:49,  79, TG3,20190430,20211129,   54,Valentina Pavan                                   
+17857,195864,MARZAGLIA                               ,IT,+44:38:13,+010:48:21,  54, TG3,20080923,20220130,   54,Valentina Pavan                                   
+17857,197944,MODENA_URBANA                           ,IT,+44:39:23,+010:55:01,  73, TG3,20051231,20220129,   54,Valentina Pavan                                   
+17878,195792,MALBORGHETTO                            ,IT,+44:51:28,+011:39:40,   4, TG3,20061003,20220130,   54,Valentina Pavan                                   
+17878,196640,PONTELAGOSCURO                          ,IT,+44:53:17,+011:36:29,   8, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17878,197960,FERRARA_URBANA                          ,IT,+44:49:56,+011:37:16,  26, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17878,916133,FERRARA                                 ,IT,+44:50:00,+011:37:00,  11, TG5,20050602,20200229,     ,                    
+17878,916138,FERRARA                                 ,IT,+44:49:00,+011:37:00,   9, TG5,20000915,20200229,     ,                    
+17861,194472,BUDRIO_DONDINA                          ,IT,+44:31:19,+011:32:59,  30, TG3,20120430,20160505,   54,Valentina Pavan                                   
+17861,197984,BUDRIO_PRUNARO                          ,IT,+44:30:33,+011:31:12,  46, TG3,20120503,20160504,   54,Valentina Pavan                                   
+17862,195936,MEZZOLARA                               ,IT,+44:34:15,+011:32:01,  20, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17862,197208,SAN_PIETRO_CAPOFIUME                    ,IT,+44:39:13,+011:37:21,  11, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17862,197992,BUDRIO_ROTTA_DEL_GIARDINO               ,IT,+44:35:52,+011:35:41,  10, TG3,20120503,20160505,   54,Valentina Pavan                                   
+17865,195816,MARINA DI RAVENNA                       ,IT,+44:29:27,+012:17:02,   3, TG3,20180407,20220113,   54,Valentina Pavan                                   
+17865,197216,SAN_PIETRO_IN_VINCOLI                   ,IT,+44:18:50,+012:09:36,   5, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17865,198016,RAVENNA_URBANA                          ,IT,+44:24:53,+012:12:00,  27, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17865,916145,PUNTA MARINA                            ,IT,+44:28:00,+012:17:00,   7, TG5,20050602,20090402,     ,                    
+17865,916146,PUNTA MARINA                            ,IT,+44:28:00,+012:17:00,   6, TG5,19820113,20200229,     ,                    
+17867,198032,RIOLA_DI_VERGATO                        ,IT,+44:13:42,+011:03:20, 287, TG3,20190430,20220130,   54,Valentina Pavan                                   
+17875,194856,CAVRIAGO                                ,IT,+44:41:22,+010:30:38,  95, TG3,20051231,20190530,   54,Valentina Pavan                                   
+17875,198104,REGGIO_NELLEMILIA_URBANA                ,IT,+44:41:52,+010:38:01,  72, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17876,195448,GRANAROLO_FAENTINO                      ,IT,+44:21:36,+011:57:30,  15, TG3,20051231,20220130,   54,Valentina Pavan                                   
+17876,197240,SANTAGATA_SUL_SANTERNO                  ,IT,+44:26:54,+011:51:59,  10, TG3,20051231,20220110,   54,Valentina Pavan                                   
+17876,197304,SANTERNO_SENIO_1                        ,IT,+44:24:03,+011:51:49,  16, TG3,20051231,20180501,   54,Valentina Pavan                                   
+17876,198112,LUGO_RA                                 ,IT,+44:25:03,+011:54:47,  14, TG3,20130408,20150305,   54,Valentina Pavan                                   
+16488,198286,CARLOFORTE                              ,IT,+39:08:14,+008:18:43,  18,TG17,19010101,19321130,   73,Giuseppe Bianco                                   
+16488,198287,CARLOFORTE                              ,IT,+39:08:14,+008:18:43,  18,TG18,19321201,19551231,   73,Giuseppe Bianco                                   
+21779,197816,VICOBARONE                              ,IT,+44:59:29,+009:22:43, 263, TG3,20051231,20071124,   54,Valentina Pavan                                   
+21779,218208,ALBARETO_-_CARAFFINI                    ,IT,+44:58:47,+009:25:00, 254, TG3,20200531,20220130,   54,Valentina Pavan                                   
+21779,218240,VICOMARINO                              ,IT,+44:58:50,+009:23:05, 234, TG3,20200531,20220130,   54,Valentina Pavan                                   
+21780,196512,PIANELLO_VAL_TIDONE                     ,IT,+44:57:03,+009:24:06, 185, TG3,20051231,20220130,   54,Valentina Pavan                                   
+21780,218216,BORGONOVO_-_GENESI                      ,IT,+44:58:05,+009:26:06, 164, TG3,20200531,20220130,   54,Valentina Pavan                                   
+21781,218224,LAGO_SCAFFAIOLO_NIVO                    ,IT,+44:07:08,+010:49:03,1662, TG3,20200531,20220130,   54,Valentina Pavan                                   
+21782,218232,VERAGO                                  ,IT,+44:57:46,+009:24:01, 320, TG3,20200531,20210216,   54,Valentina Pavan                                   
+21783,218208,ALBARETO_-_CARAFFINI                    ,IT,+44:58:47,+009:25:00, 254, TG3,20200531,20220130,   54,Valentina Pavan                                   
+21783,218240,VICOMARINO                              ,IT,+44:58:50,+009:23:05, 234, TG3,20200531,20220130,   54,Valentina Pavan                                   
+21784,194840,CATTOLICA                               ,IT,+43:57:30,+012:44:22,   5, TG3,20060727,20220130,   54,Valentina Pavan                                   
+21784,218248,CONCA                                   ,IT,+43:57:29,+012:42:00,  19, TG3,20200708,20201030,   54,Valentina Pavan                                   
+21784,916149,RIMINI                                  ,IT,+44:02:00,+012:37:00,  13, TG5,19820114,20200229,     ,                    
+21785,194840,CATTOLICA                               ,IT,+43:57:30,+012:44:22,   5, TG3,20060727,20220130,   54,Valentina Pavan                                   
+21785,197896,RIMINI_URBANA                           ,IT,+44:03:33,+012:34:24,  16, TG3,20051231,20220130,   54,Valentina Pavan                                   
+21785,218248,CONCA                                   ,IT,+43:57:29,+012:42:00,  19, TG3,20200708,20201030,   54,Valentina Pavan                                   
+21785,218256,RICCIONE_URBANA                         ,IT,+44:00:01,+012:39:18,  22, TG3,20200918,20220130,   54,Valentina Pavan                                   
+21785,916149,RIMINI                                  ,IT,+44:02:00,+012:37:00,  13, TG5,19820114,20200229,     ,                    
+22462,194096,ANITA                                   ,IT,+44:33:55,+012:02:48,  -4, TG3,20121231,20200130,   54,Valentina Pavan                                   
+22462,194576,CAMSE                                   ,IT,+44:36:00,+012:04:38,  -1, TG3,20051231,20171115,   54,Valentina Pavan                                   
+22462,196632,PONTE_CHIAVICA                          ,IT,+44:33:40,+012:14:37,   4, TG3,20051231,20070907,   54,Valentina Pavan                                   
+22462,196840,RAVENNA_LE_BASSETTE                     ,IT,+44:27:55,+012:12:19,   2, TG3,20051231,20131231,   54,Valentina Pavan                                   
+22462,220992,UMANA                                   ,IT,+44:33:10,+012:06:34,   1, TG3,20211031,20220130,   54,Valentina Pavan                                   

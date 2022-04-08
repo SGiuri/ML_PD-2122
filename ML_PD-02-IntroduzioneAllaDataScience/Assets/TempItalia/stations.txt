@@ -1,0 +1,312 @@
+EUROPEAN CLIMATE ASSESSMENT & DATASET (ECA&D), file created on 08-04-2022
+THESE DATA CAN BE USED FREELY PROVIDED THAT THE FOLLOWING SOURCE IS ACKNOWLEDGED:
+
+Klein Tank, A.M.G. and Coauthors, 2002. Daily dataset of 20th-century surface
+air temperature and precipitation series for the European Climate Assessment.
+Int. J. of Climatol., 22, 1441-1453.
+Data and metadata available at http://www.ecad.eu
+
+FILE FORMAT (MISSING VALUE CODE IS -9999):
+
+ 01- 05 STAID  : Station identifier
+ 07- 46 STANAME: Station name
+ 48- 49 CN     : Country code (ISO3116 country codes)
+ 51- 59 LAT    : Latitude in degrees:minutes:seconds (+: North, -: South)
+ 61- 70 LON    : Longitude in degrees:minutes:seconds (+: East, -: West)
+ 72- 75 HGTH   : Station elevation in meters
+
+STAID,STANAME                                 ,CN,      LAT,       LON,HGHT
+
+  174,BRINDISI                                ,IT,+40:38:00,+017:56:00,  10
+  175,CAGLIARI                                ,IT,+39:14:00,+009:03:00,  21
+  176,ROMA CIAMPINO                           ,IT,+41:47:00,+012:35:00, 105
+  177,VERONA VILLAFRANCA                      ,IT,+45:23:00,+010:52:00,  68
+  169,BOLOGNA                                 ,IT,+44:30:00,+011:20:46,  53
+  173,MILAN                                   ,IT,+45:28:18,+009:11:21, 150
+  380,PADOVA                                  ,IT,+45:23:55,+011:52:49,  12
+  381,PALERMO                                 ,IT,+38:06:37,+013:21:05,  37
+17512,ALBARETO                                ,IT,+44:42:07,+010:57:24,  28
+17513,ALBARETO_PARMA                          ,IT,+44:26:48,+009:41:54, 495
+17516,ALPE_DI_GORRETO                         ,IT,+44:36:13,+009:14:07, 849
+17517,ANITA                                   ,IT,+44:33:55,+012:02:48,  -4
+ 2768,BADIA TEDALDA                           ,IT,+43:41:34,+012:08:11, 859
+17521,BAGNACAVALLO                            ,IT,+44:27:09,+012:01:11,   4
+ 2771,BAISO                                   ,IT,+44:29:57,+010:36:21, 550
+17522,BANDO                                   ,IT,+44:39:42,+011:51:08,  -2
+17523,BARBAGELATA                             ,IT,+44:28:51,+009:14:31,1116
+ 2773,BARCO                                   ,IT,+44:03:39,+011:23:54, 720
+17524,BARDI                                   ,IT,+44:38:01,+009:43:58, 597
+ 2776,BASILICAGOIANO                          ,IT,+44:42:16,+010:24:20, 113
+  854,BEDONIA                                 ,IT,+44:30:27,+009:37:36, 521
+17528,BERCETO                                 ,IT,+44:30:37,+009:58:58, 758
+17530,BERRA                                   ,IT,+44:58:04,+011:53:44,   3
+17531,BETTOLA                                 ,IT,+44:46:59,+009:36:07, 329
+17533,BIBBIANA                                ,IT,+44:07:50,+011:30:38, 658
+  855,BOBBIO                                  ,IT,+44:45:18,+009:23:03, 270
+17536,BOLOGNA_IDROGRAFICO                     ,IT,+44:29:59,+011:20:46,  84
+17537,BOLOGNA_SAN_LUCA                        ,IT,+44:28:43,+011:17:54, 286
+17538,BOLOGNA_TORRE_ASINELLI                  ,IT,+44:29:39,+011:20:48, 148
+17539,BOLOGNA_URBANA                          ,IT,+44:30:02,+011:19:43,  78
+17540,BONDENO                                 ,IT,+44:54:00,+011:21:00,   9
+  856,BOSCO CENTRALE                          ,IT,+44:26:20,+010:02:01, 902
+ 2782,BRISIGHELLA                             ,IT,+44:13:23,+011:46:18, 115
+17546,BUDRIO_DONDINA                          ,IT,+44:31:19,+011:32:59,  30
+ 2783,CABANNE                                 ,IT,+44:29:41,+009:20:45, 848
+17547,CA_BORTOLANI                            ,IT,+44:20:48,+011:05:04, 691
+ 2786,CALESTANO                               ,IT,+44:36:21,+010:07:28, 381
+ 2787,CAMPIGNA                                ,IT,+43:52:20,+011:44:50,1068
+17553,CAMPOGALLIANO                           ,IT,+44:41:36,+010:51:11,  40
+17554,CAMPORA_DI_SASSO                        ,IT,+44:31:16,+010:16:31, 649
+17555,CAMSE                                   ,IT,+44:36:00,+012:04:38,  -1
+17557,CANOSSA                                 ,IT,+44:33:57,+010:27:56, 516
+17559,CAPACCIO                                ,IT,+43:55:57,+011:53:39, 295
+17560,CARPINETA                               ,IT,+44:05:20,+012:16:28, 113
+17561,CARPINETI                               ,IT,+44:28:32,+010:30:31, 580
+17563,CASALECCHIO_CANALE                      ,IT,+44:28:32,+011:16:51,  63
+17564,CASALPORINO                             ,IT,+44:31:37,+009:32:50, 925
+17565,CASASELVATICA                           ,IT,+44:32:52,+010:02:08, 834
+17566,CASATICO                                ,IT,+44:38:53,+010:15:30, 347
+17569,CASONI_DI_ROMAGNA                       ,IT,+44:15:12,+011:25:31, 708
+17570,CASONI_DI_SANTA_MARIA_DI_TARO           ,IT,+44:26:15,+009:28:50, 853
+17571,CASSA_DOSOLO                            ,IT,+44:39:14,+011:16:06,  22
+17572,CASSIMORENO                             ,IT,+44:38:10,+009:34:45, 881
+17573,CASTELDELCI                             ,IT,+43:47:17,+012:08:33, 720
+ 2791,CASTEL DEL RIO                          ,IT,+44:12:40,+011:30:18, 216
+17574,CASTELFRANCO_EMILIA                     ,IT,+44:37:52,+011:01:46,  32
+17577,CASTELLAZZO_VILLANOVA_DARDA             ,IT,+45:00:09,+010:00:17,  41
+17578,CASTELNOVO_DI_SOTTO                     ,IT,+44:50:13,+010:34:41,  23
+ 2793,CASTELNOVO NE'MONTI                     ,IT,+44:26:06,+010:23:41, 729
+17580,CASTEL_SAN_PIETRO                       ,IT,+44:24:40,+011:35:49,  58
+17581,CASTEL_SAN_PIETRO_GAIANA                ,IT,+44:27:30,+011:36:09,  45
+17582,CASTENASO_VILLANOVA                     ,IT,+44:29:24,+011:25:45,  51
+ 2795,CATTOLICA                               ,IT,+43:57:30,+012:44:22,   5
+17584,CAVRIAGO                                ,IT,+44:41:22,+010:30:38,  95
+17586,CERRETO_LAGHI                           ,IT,+44:17:55,+010:14:18,1336
+17588,CESENATICO_PORTO                        ,IT,+44:12:23,+012:24:04,   1
+17589,CESENA_URBANA                           ,IT,+44:08:17,+012:14:37,  77
+17591,CIPRIANO                                ,IT,+44:55:56,+011:53:48,   1
+17592,CIVAGO                                  ,IT,+44:14:49,+010:27:56,1051
+ 2798,CIVITELLA DI ROMAGNA                    ,IT,+43:59:37,+011:56:43, 460
+ 2799,CODIGORO                                ,IT,+44:50:06,+012:05:52,   2
+ 2800,COLLAGNA                                ,IT,+44:20:41,+010:16:16, 832
+17597,COLORNO                                 ,IT,+44:56:37,+010:20:58,  29
+ 2801,COPPARO                                 ,IT,+44:54:59,+011:49:17,   1
+ 2802,CORNIOLO                                ,IT,+43:54:26,+011:47:35, 555
+17601,CORREGGIO                               ,IT,+44:44:35,+010:46:22,  33
+17602,CORSICCHIE                              ,IT,+43:50:45,+012:02:08,1200
+17603,CORTE_CENTRALE                          ,IT,+44:47:13,+012:01:39,  -2
+17604,CORTILE_DI_CARPI                        ,IT,+44:46:42,+010:58:16,  23
+ 2804,COTTEDE                                 ,IT,+44:06:35,+011:10:09, 794
+17605,CUSERCOLI                               ,IT,+44:02:27,+011:58:54, 330
+17607,DIAMANTINA                              ,IT,+44:53:09,+011:30:42,   5
+ 2806,DIGA DEL BRUGNETO                       ,IT,+44:32:02,+009:12:30, 744
+17608,DIGA_DI_BRASIMONE                       ,IT,+44:07:44,+011:07:03, 840
+ 2807,DIGA DI PAVANA                          ,IT,+44:07:06,+011:00:20, 480
+ 2808,DIGA DI QUARTO                          ,IT,+43:53:26,+012:05:11, 325
+17609,DIGA_DI_RIDRACOLI                       ,IT,+43:52:12,+011:50:19, 565
+ 2809,DIGA DI SUVIANA                         ,IT,+44:08:04,+011:02:35, 500
+17610,DOCCIA_DI_FIUMALBO                      ,IT,+44:11:24,+010:40:23,1371
+17614,FARFANARO                               ,IT,+44:34:00,+009:40:46, 787
+ 2811,FARNETA CENTRALE                        ,IT,+44:21:00,+010:34:12, 703
+17616,FEBBIO                                  ,IT,+44:17:52,+010:25:38,1148
+  170,FERRARA                                 ,IT,+44:49:57,+011:37:16,  15
+17618,FIDENZA                                 ,IT,+44:53:36,+010:04:59,  58
+17619,FINALE_EMILIA                           ,IT,+44:48:56,+011:15:04,  16
+ 2814,FIORENZUOLA D'ARDA                      ,IT,+44:56:04,+009:53:43,  79
+ 2815,FIRENZUOLA                              ,IT,+44:07:19,+011:22:28, 476
+17622,FORLI_URBANA                            ,IT,+44:13:13,+012:02:30,  51
+17623,FORMIGINE                               ,IT,+44:33:04,+010:54:33,  90
+ 2821,IDROVORA FOSSO GHIAIA                   ,IT,+44:21:12,+012:15:54,   2
+17624,FRASSINETO                              ,IT,+44:34:53,+009:35:06, 824
+17625,FRASSINORO                              ,IT,+44:17:44,+010:34:32,1091
+17627,GAIBANELLA                              ,IT,+44:46:08,+011:39:45,   3
+17628,GAINAGO                                 ,IT,+44:53:07,+010:22:50,  28
+17629,GALLO                                   ,IT,+44:43:26,+011:32:43,  21
+17630,GARIGA                                  ,IT,+44:58:00,+009:40:55, 102
+17631,GIRALDA                                 ,IT,+44:48:51,+012:14:54,   3
+17632,GRAMMATICA                              ,IT,+44:26:17,+010:05:34, 980
+17633,GRANAROLO_FAENTINO                      ,IT,+44:21:36,+011:57:30,  15
+17635,GROPPARELLO                             ,IT,+44:49:30,+009:43:31, 341
+17636,GRUGNO                                  ,IT,+44:52:37,+010:13:32,  42
+17637,GUAGNINO                                ,IT,+44:41:18,+012:12:41,   1
+ 2819,GUIGLIA (STAZ. AGRARIA)                 ,IT,+44:25:57,+010:59:33, 456
+17639,IDROVORO_FOSSO_GHIAIA                   ,IT,+44:21:12,+012:15:53,   2
+ 2822,IMOLA                                   ,IT,+44:20:45,+011:42:46,  42
+17641,IMOLA2                                  ,IT,+44:22:44,+011:39:08,  66
+17642,IMOLA_MARIO_NERI                        ,IT,+44:19:59,+011:44:58,  68
+17643,INVASO                                  ,IT,+44:13:38,+011:13:18, 460
+ 2823,ISOLA DI PALANZANO CENTRALE             ,IT,+44:25:42,+010:09:44, 597
+ 2825,JOLANDA DI SAVOIA                       ,IT,+44:53:11,+011:58:36,  -2
+17644,LAGDEI                                  ,IT,+44:24:47,+010:00:34,1252
+17645,LAGO_BALLANO                            ,IT,+44:22:10,+010:06:07,1339
+17647,LAGO_PADULI                             ,IT,+44:20:44,+010:08:18,1151
+17648,LAGO_PRATIGNANO                         ,IT,+44:10:38,+010:49:04,1319
+17649,LAGOSANTO                               ,IT,+44:44:22,+012:08:55,  -4
+17650,LAGO_SCAFFAIOLO                         ,IT,+44:07:09,+010:48:32,1794
+17651,LAMA                                    ,IT,+43:49:55,+011:50:22, 715
+16702,LANGHIRANO                              ,IT,+44:36:14,+010:15:39, 269
+17653,LA_STELLA                               ,IT,+44:31:47,+010:29:26, 729
+17655,LA_VALLETTA                             ,IT,+44:54:52,+011:29:46,   6
+17657,LAVEZZOLA                               ,IT,+44:33:48,+011:50:38,   5
+  859,LIGONCHIO CENTRALE                      ,IT,+44:19:01,+010:20:42, 900
+17661,LODOLONE                                ,IT,+44:11:51,+011:52:29, 250
+17662,LOIANO                                  ,IT,+44:15:59,+011:19:00, 745
+ 2829,LUGO DI ROMAGNA                         ,IT,+44:25:04,+011:54:48,  14
+17664,MADONNA_DEI_FORNELLI                    ,IT,+44:12:56,+011:15:24, 900
+17666,MAIATICO                                ,IT,+44:42:10,+010:12:22, 276
+17667,MALBORGHETTO                            ,IT,+44:51:28,+011:39:40,   4
+ 1733,MARINA DI RAVENNA                       ,IT,+44:29:27,+012:17:02,   3
+17669,MARMORTA                                ,IT,+44:37:19,+011:43:36,   6
+ 2832,MARRA CENTRALE                          ,IT,+44:28:24,+010:02:51, 618
+ 2833,MARTINELLA                              ,IT,+44:42:41,+011:53:04,   1
+17670,MARTORANO                               ,IT,+44:09:58,+012:16:04,  25
+17671,MARZAGLIA                               ,IT,+44:38:13,+010:48:21,  54
+17674,MEDELANA                                ,IT,+44:46:22,+011:52:02,   0
+17675,MEDESANO                                ,IT,+44:44:33,+010:08:50, 104
+17676,MESOLA                                  ,IT,+44:55:09,+012:10:21,  -3
+17678,MEZZANO_NORD-OVEST                      ,IT,+44:40:10,+011:53:54,  -4
+17679,MEZZOLARA                               ,IT,+44:34:15,+011:32:01,  20
+17680,MIRABELLO                               ,IT,+44:49:54,+011:27:15,  10
+ 2836,MIRANDOLA                               ,IT,+44:53:10,+011:00:59,  18
+ 2838,MODENA                                  ,IT,+44:38:53,+010:56:04,  34
+17681,MODIGLIANA_ARPA                         ,IT,+44:07:12,+011:48:29, 556
+17683,MONGHIDORO                              ,IT,+44:12:51,+011:19:24, 825
+17684,MONTEACUTO_DELLALPI                     ,IT,+44:08:10,+010:53:14, 900
+17689,MONTEFIORINO                            ,IT,+44:19:41,+010:37:21, 632
+ 2849,MONTEGROPPO                             ,IT,+44:25:08,+009:41:11, 656
+17690,MONTE_GROSSO                            ,IT,+44:04:17,+011:52:18, 670
+ 2843,MONTE IOTTONE                           ,IT,+43:59:29,+012:09:48, 417
+  860,MONTEOMBRARO                            ,IT,+44:22:35,+011:00:31, 700
+ 2850,MONTESE                                 ,IT,+44:16:37,+010:56:31, 920
+17695,MONTICELLI_ARPA                         ,IT,+45:04:49,+009:58:15,  37
+  861,MONZUNO                                 ,IT,+44:16:36,+011:16:25, 600
+17697,MORCIANO                                ,IT,+43:54:42,+012:38:34,  65
+17698,MORDANO_BUBANO                          ,IT,+44:25:15,+011:48:31,  16
+17699,MORMOROLA                               ,IT,+44:34:07,+009:53:11, 556
+17700,MULAZZANO                               ,IT,+43:57:08,+012:32:10, 190
+17701,MUSIARA_SUPERIORE                       ,IT,+44:29:54,+010:10:42, 982
+17702,NEVIANO_ARDUINI                         ,IT,+44:35:00,+010:18:49, 513
+ 2852,NOCIVEGLIA                              ,IT,+44:32:50,+009:36:36, 855
+ 2856,OSPITALETTO (OSPEDALETTO)               ,IT,+44:17:49,+010:19:00,1150
+17707,OSPITALMONACALE                         ,IT,+44:40:06,+011:43:17,   0
+17708,OSTELLATO                               ,IT,+44:42:26,+011:53:28,   0
+17709,OSTIA_PARMENSE                          ,IT,+44:30:50,+009:50:31, 354
+17710,PADERNO                                 ,IT,+44:26:49,+011:18:57, 267
+17711,PADULLE_SALA_BOLOGNESE                  ,IT,+44:37:39,+011:17:26,  25
+17713,PANOCCHIA                               ,IT,+44:40:58,+010:17:46,  18
+17715,PARMA_T.P.                              ,IT,+44:48:29,+010:19:49,3719
+17717,PASSO_DELLE_RADICI                      ,IT,+44:12:35,+010:29:19,1535
+ 2860,PAVULLO NEL FRIGNANO                    ,IT,+44:19:10,+010:49:42, 678
+ 2862,PENNABILLI                              ,IT,+43:49:11,+012:16:27, 629
+17723,PIACENZA_URBANA                         ,IT,+45:03:17,+009:40:46,  71
+ 2865,PIANDELAGOTTI                           ,IT,+44:14:14,+010:30:59,1219
+17725,PIANELLO_VAL_TIDONE                     ,IT,+44:57:03,+009:24:06, 185
+17726,PIEVE_DI_CUSIGNANO                      ,IT,+44:46:49,+010:02:19, 277
+17727,PIEVEPELAGO                             ,IT,+44:11:39,+010:34:38,1083
+17729,POGGIO_RENATICO                         ,IT,+44:45:55,+011:28:58,  10
+ 2870,POLINAGO                                ,IT,+44:20:37,+010:43:47, 754
+17730,POMPOSA-VOLANO                          ,IT,+44:48:48,+012:12:17,4394
+17733,PONTE_CAVOLA                            ,IT,+44:24:33,+010:31:22, 367
+17734,PONTE_CHIAVICA                          ,IT,+44:33:40,+012:14:37,   4
+17735,PONTELAGOSCURO                          ,IT,+44:53:17,+011:36:29,   8
+17736,PONTE_MAODINO                           ,IT,+44:49:37,+012:07:58,  -3
+17741,PONTICELLI                              ,IT,+44:48:56,+010:56:04,  21
+  862,PORRETTA TERME                          ,IT,+44:09:15,+010:58:38, 352
+17743,PORTO_GARIBALDI                         ,IT,+44:40:36,+012:14:57,   0
+ 2872,PRACCHIA                                ,IT,+44:03:14,+010:54:20, 620
+17745,PREDOLO                                 ,IT,+44:29:03,+010:26:48, 751
+17747,QUARTESANA                              ,IT,+44:49:05,+011:44:56,   2
+17748,QUARTO                                  ,IT,+43:53:31,+012:05:42, 247
+ 2879,RAMISETO                                ,IT,+44:24:41,+010:16:32, 798
+17751,RAVENNA_LE_BASSETTE                     ,IT,+44:27:55,+012:12:19,   2
+17752,REDA_DI_FAENZA                          ,IT,+44:16:33,+011:55:25,  32
+ 2882,REGGIO NELL'EMILIA (COVIOLO)            ,IT,+44:42:00,+010:38:08,  51
+17753,RIFUGIO_BARGETANA                       ,IT,+44:15:39,+010:23:53,1729
+ 1736,RIMINI                                  ,IT,+44:03:31,+012:34:47,   7
+17757,RIOLA_DI_LABANTE                        ,IT,+44:15:40,+011:02:07, 623
+ 2885,ROCCA SAN CASCIANO                      ,IT,+44:03:12,+011:50:31, 255
+17758,ROLO                                    ,IT,+44:53:05,+010:52:26,  20
+17760,RONCOVETRO                              ,IT,+44:31:03,+010:22:52, 571
+17761,RONTANA                                 ,IT,+44:13:37,+011:44:16, 370
+16659,ROVEGNO                                 ,IT,+44:34:33,+009:16:57, 686
+17762,ROVERSANO                               ,IT,+44:05:08,+012:12:24, 175
+17765,SAIARINO                                ,IT,+44:37:21,+011:48:45,   8
+17768,SALETTO                                 ,IT,+44:37:56,+011:26:28,  18
+16736,SALSOMAGGIORE                           ,IT,+44:49:08,+009:59:28, 161
+17769,SALSOMINORE                             ,IT,+44:37:57,+009:24:19, 408
+17771,SAN_BARTOLOMEO_IN_BOSCO                 ,IT,+44:44:29,+011:36:23,   8
+17772,SAN_CARLO                               ,IT,+44:05:27,+012:11:59,  54
+ 2889,SAN CASSIANO                            ,IT,+44:08:54,+011:41:30, 230
+17773,SAN_FELICE_SUL_PANARO                   ,IT,+44:49:33,+011:07:32,  16
+17777,SAN_GIUSEPPE                            ,IT,+44:43:49,+012:11:09,  -5
+ 2891,SAN MARINO                              ,IT,+43:56:15,+012:26:47, 680
+17779,SAN_MICHELE                             ,IT,+44:45:45,+009:42:08, 662
+17780,SAN_NICOLO                              ,IT,+45:02:29,+009:35:22,  68
+17781,SAN_PANCRAZIO                           ,IT,+44:48:29,+010:16:20,  59
+17783,SAN_PIETRO_CAPOFIUME                    ,IT,+44:39:13,+011:37:21,  11
+17784,SAN_PIETRO_IN_VINCOLI                   ,IT,+44:18:50,+012:09:36,   5
+17786,SANTAGATA_BOLOGNESE                     ,IT,+44:41:42,+011:08:41,  18
+17787,SANTAGATA_SUL_SANTERNO                  ,IT,+44:26:54,+011:51:59,  10
+17789,SANTA_MARIA_CODIFIUME                   ,IT,+44:41:06,+011:40:24,   5
+17791,SANTANTONIO_ARPA                        ,IT,+44:34:07,+011:43:57,   8
+17794,SANTERNO_SENIO_1                        ,IT,+44:24:03,+011:51:49,  16
+17795,SANTERNO_SENIO_2                        ,IT,+44:22:05,+011:50:19,  19
+17796,SANTO_STEFANO_DAVETO                    ,IT,+44:32:45,+009:27:00,1007
+17797,SAN_VALENTINO                           ,IT,+44:31:25,+010:41:57, 302
+17798,SAN_ZACCARIA                            ,IT,+44:15:26,+012:12:50,  10
+17799,SASSO_MARCONI_ARPA                      ,IT,+44:26:22,+011:14:28, 275
+17800,SASSO_MORELLI                           ,IT,+44:25:10,+011:45:14,  19
+17801,SASSO_MORELLI_BEGHINA                   ,IT,+44:23:50,+011:43:27,  28
+17802,SASSOSTORNO                             ,IT,+44:15:33,+010:40:26, 971
+17806,SELLARINO_VOGHIERA                      ,IT,+44:44:47,+011:44:46,   3
+17807,SELVA_FERRIERE                          ,IT,+44:35:12,+009:28:56,1109
+17808,SELVANIZZA                              ,IT,+44:26:23,+010:14:08, 474
+11611,SERMIDE (SP 91)                         ,IT,+45:01:00,+011:17:24,  10
+17811,SERPIERI                                ,IT,+44:32:54,+011:22:02,  28
+17812,SERRAMAZZONI                            ,IT,+44:25:43,+010:47:13, 826
+ 2904,SESTOLA                                 ,IT,+44:13:56,+010:46:07, 985
+17813,SETTEFONTI                              ,IT,+44:24:09,+011:27:41, 330
+17814,SISSA                                   ,IT,+44:57:08,+010:15:33,  32
+17815,SIVIZZANO                               ,IT,+44:38:33,+010:21:25, 258
+17822,TARSOGNO                                ,IT,+44:26:48,+009:37:04, 852
+17824,TEODORANO                               ,IT,+44:05:29,+012:05:05,  79
+17826,TERUZZI                                 ,IT,+44:41:42,+009:41:06,1077
+17828,TORRIGLIA                               ,IT,+44:30:53,+009:09:16, 769
+17830,TREBBIA_VALSIGIARA                      ,IT,+44:38:24,+009:19:48, 462
+17831,TREBBIO                                 ,IT,+44:08:11,+011:50:13, 570
+17832,TREPPIO                                 ,IT,+44:04:53,+011:01:58, 650
+17833,VALDENA                                 ,IT,+44:26:38,+009:47:03, 762
+17837,VALSENIO                                ,IT,+44:14:51,+011:39:03, 164
+17839,VARANO_MARCHESI                         ,IT,+44:45:00,+010:01:08, 225
+ 2913,VARSI                                   ,IT,+44:38:58,+009:49:16, 451
+ 2916,VERGATO                                 ,IT,+44:17:16,+011:06:47, 193
+17841,VERGIANO                                ,IT,+44:02:04,+012:30:01,  36
+17842,VESPIGNANO                              ,IT,+44:13:58,+011:43:10, 208
+17843,VICOBARONE                              ,IT,+44:59:29,+009:22:43, 263
+17844,VIGNOLA                                 ,IT,+44:29:00,+010:58:59, 115
+17845,VILLA_GHIGI                             ,IT,+44:28:33,+011:19:31, 203
+ 2920,VILLA MINOZZO                           ,IT,+44:21:45,+010:27:36, 704
+17847,VOLANO                                  ,IT,+44:48:46,+012:15:01,   1
+17849,VOLTRE                                  ,IT,+44:01:56,+012:02:35, 270
+ 2922,ZIBELLO                                 ,IT,+45:01:10,+010:07:34,  35
+17850,ZOLA_PREDOSA                            ,IT,+44:29:46,+011:12:00,  65
+17851,RIMINI_URBANA                           ,IT,+44:03:33,+012:34:24,  16
+17852,RIMINI_AUSA                             ,IT,+44:03:23,+012:32:43,  10
+17856,PARMA_URBANA                            ,IT,+44:48:28,+010:19:49,  79
+17857,MODENA_URBANA                           ,IT,+44:39:23,+010:55:01,  73
+17878,FERRARA_URBANA                          ,IT,+44:49:56,+011:37:16,  26
+17861,BUDRIO_PRUNARO                          ,IT,+44:30:33,+011:31:12,  46
+17862,BUDRIO_ROTTA_DEL_GIARDINO               ,IT,+44:35:52,+011:35:41,  10
+17865,RAVENNA_URBANA                          ,IT,+44:24:53,+012:12:00,  27
+17867,RIOLA_DI_VERGATO                        ,IT,+44:13:42,+011:03:20, 287
+17875,REGGIO_NELLEMILIA_URBANA                ,IT,+44:41:52,+010:38:01,  72
+17876,LUGO_RA                                 ,IT,+44:25:03,+011:54:47,  14
+16488,CARLOFORTE                              ,IT,+39:08:14,+008:18:43,  18
+21779,ALBARETO_-_CARAFFINI                    ,IT,+44:58:47,+009:25:00, 254
+21780,BORGONOVO_-_GENESI                      ,IT,+44:58:05,+009:26:06, 164
+21781,LAGO_SCAFFAIOLO_NIVO                    ,IT,+44:07:08,+010:49:03,1662
+21782,VERAGO                                  ,IT,+44:57:46,+009:24:01, 320
+21783,VICOMARINO                              ,IT,+44:58:50,+009:23:05, 234
+21784,CONCA                                   ,IT,+43:57:29,+012:42:00,  19
+21785,RICCIONE_URBANA                         ,IT,+44:00:01,+012:39:18,  22
+22462,UMANA                                   ,IT,+44:33:10,+012:06:34,   1

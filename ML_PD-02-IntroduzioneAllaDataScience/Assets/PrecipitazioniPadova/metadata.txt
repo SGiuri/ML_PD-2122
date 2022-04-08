@@ -1,0 +1,21 @@
+EUROPEAN CLIMATE ASSESSMENT & DATASET (ECA&D), file created on 08-04-2022
+THESE DATA CAN BE USED FREELY PROVIDED THAT THE FOLLOWING SOURCE IS ACKNOWLEDGED:
+
+Klein Tank, A.M.G. and Coauthors, 2002. Daily dataset of 20th-century surface
+air temperature and precipitation series for the European Climate Assessment.
+Int. J. of Climatol., 22, 1441-1453.
+Data and metadata available at http://www.ecad.eu
+
+
+----------------------------------------------------------------
+380,PADOVA,ITALY,+45:23:55,+011:52:49,12 m 
+----------------------------------------------------------------
+* Land use:
+
+* Soil type:
+
+* Surface coverage:
+
+* History:
+Maurizio Maugeri:<br>1713-1714: Firstly recorded yearly amount of precipitation.<br> 1740: First daily observations recorded. Deemed as reliable from 1774 on (private observation at the astronomers’ houses).<br> 1768-1813: Locally developed pluviometer in operation: observations recorded at the Specola (Astronomical Observatory).<br>1838: New pluviometer in operation <br> 1910: New pluviometer in operation. <br>  1938-1962: final period of observations at the Specola. <br>  1980-today: Observations at the Botanic Garden. <br><br>Measuring periods/element IDs before 1990-1995: <br>TG5, TN5, TX6, RR3
+

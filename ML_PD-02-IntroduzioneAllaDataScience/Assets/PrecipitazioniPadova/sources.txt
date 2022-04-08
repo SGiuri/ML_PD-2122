@@ -1,0 +1,26 @@
+EUROPEAN CLIMATE ASSESSMENT & DATASET (ECA&D), file created on 08-04-2022
+THESE DATA CAN BE USED FREELY PROVIDED THAT THE FOLLOWING SOURCE IS ACKNOWLEDGED:
+
+Klein Tank, A.M.G. and Coauthors, 2002. Daily dataset of 20th-century surface
+air temperature and precipitation series for the European Climate Assessment.
+Int. J. of Climatol., 22, 1441-1453.
+Data and metadata available at http://www.ecad.eu
+
+FILE FORMAT (MISSING VALUE CODE IS -9999):
+
+ 01- 05 STAID  : Station identifier
+ 07- 12 SOUID  : Source identifier
+ 14- 53 SOUNAME: Source name
+ 55- 56 CN     : Country code (ISO3116 country codes)
+ 58- 66 LAT    : Latitude in degrees:minutes:seconds (+: North, -: South)
+ 68- 77 LON    : Longitude in degrees:minutes:seconds (+: East, -: West)
+ 79- 82 HGHT   : Station elevation in meters
+ 84- 87 ELEI   : Element identifier (see website at Daily Data > Data dictionary > Elements)
+ 89- 96 BEGIN  : Begin date YYYYMMDD
+ 98-105 END    : End date YYYYMMDD
+107-111 PARID  : Participant identifier
+113-163 PARNAME: Participant name
+
+STAID, SOUID,SOUNAME                                 ,CN,      LAT,       LON,HGHT,ELEI,   BEGIN,     END,PARID,PARNAME
+
+  380,115588,PADOVA                                  ,IT,+45:23:55,+011:52:49,  12, RR1,19950101,20081231,   20,Maurizio Maugeri                                  
