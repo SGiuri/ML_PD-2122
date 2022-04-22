@@ -1,4 +1,4 @@
-from __future__ import division
+# from __future__ import division
 import math
 
 import unittest
@@ -11,6 +11,9 @@ from complex_numbers import ComplexNumber
 class ComplexNumbersTest(unittest.TestCase):
 
     # Real part
+    def test_real_part_of_a_purely_real_number_2(self):
+        self.assertEqual(ComplexNumber(3, 0).real, 3)
+
 
     def test_real_part_of_a_purely_real_number(self):
         self.assertEqual(ComplexNumber(1, 0).real, 1)
@@ -45,11 +48,19 @@ class ComplexNumbersTest(unittest.TestCase):
     def test_string_of_complex_number(self):
         self.assertEqual(str(ComplexNumber(5, 3)), "5 + 3i")
 
+    def test_string_of_complex_neg_number(self):
+        self.assertEqual(str(ComplexNumber(5, -3)), "5 - 3i")
+
+
+    def test_string_of_complex_neg_number(self):
+        self.assertEqual(str(ComplexNumber(-5, -3)), "-5 - 3i")
+
+
     def test_string_of_real_number(self):
         self.assertEqual(str(ComplexNumber(5, 0)), "5")
 
     def test_string_of_imaginary_number(self):
-        self.assertEqual(str(ComplexNumber(0, -3)), "-3i")
+        self.assertEqual("-3i", str(ComplexNumber(0, -3)))
 
 
     # Arithmetic
@@ -100,19 +111,13 @@ class ComplexNumbersTest(unittest.TestCase):
     # Division
 
     def test_divide_purely_real_numbers(self):
-        self.assertAlmostEqual(
-            ComplexNumber(1, 0) / ComplexNumber(2, 0), ComplexNumber(0.5, 0)
-        )
+        self.assertAlmostEqual(ComplexNumber(1, 0) / ComplexNumber(2, 0), ComplexNumber(0.5, 0))
 
     def test_divide_purely_imaginary_numbers(self):
-        self.assertAlmostEqual(
-            ComplexNumber(0, 1) / ComplexNumber(0, 2), ComplexNumber(0.5, 0)
-        )
+        self.assertAlmostEqual(ComplexNumber(0, 1) / ComplexNumber(0, 2), ComplexNumber(0.5, 0))
 
     def test_divide_numbers_with_real_and_imaginary_part(self):
-        self.assertAlmostEqual(
-            ComplexNumber(1, 2) / ComplexNumber(3, 4), ComplexNumber(0.44, 0.08)
-        )
+        self.assertAlmostEqual(ComplexNumber(1, 2) / ComplexNumber(3, 4), ComplexNumber(0.44, 0.08))
 
     # Absolute value
 

@@ -4,14 +4,14 @@
 https://it.wikipedia.org/wiki/Numero_complesso#Operazioni_con_i_numeri_complessi
 
 
-Un numero complesso e' un numero scritto nella forma `a + b * i` dove `a` e `b` sono reali e `i` soddisfa `i^2 = -1`.
+Un numero complesso e' un numero scritto nella forma `a + b * i` dove `a` e `b` sono reali e `i` soddisfa `i^2 = -1`.<br>
 
-`a` e' detta parte reali, `b` e' detta parte immaginaria di `z`.
-Il _complesso coniugato_ (conjugate) del numero `a + b * i` e' il numero `a - b * i`.
+`a` e' detta parte reali, `b` e' detta parte immaginaria di `z`.<br>
+Il _complesso coniugato_ (conjugate) del numero `a + b * i` e' il numero `a - b * i`.<br>
 Il _modulo_ (absolute value) del numero complesso `z = a + b * i` e' il numero reale `|z| = sqrt(a^2 + b^2)`. <br>
-Il _quadrato del valore assoluto_  `|z|^2` e' il risultato della moltiplicazione di `z` per il suo complesso coniugato.
+Il _quadrato del valore assoluto_  `|z|^2` e' il risultato della moltiplicazione di `z` per il suo complesso coniugato.<br>
 
-_Somma e sottrazione_ di due numeri complessi si eseguono sommando e sottraendo indipendentemente la parte reale e la parte immaginaria
+_Somma e sottrazione_ di due numeri comp!lessi si eseguono sommando e sottraendo indipendentemente la parte reale e la parte immaginaria
 `(a + i * b) + (c + i * d) = (a + c) + (b + d) * i`,
 `(a + i * b) - (c + i * d) = (a - c) + (b - d) * i`.
 
@@ -24,10 +24,10 @@ Il _reciproco_ (reciprocal) di un numero non nullo e':
 _Dividere_ il numero complesso `a + i * b` per `c + i * d` restituisce:
 `(a + i * b) / (c + i * d) = (a * c + b * d)/(c^2 + d^2) + (b * c - a * d)/(c^2 + d^2) * i`.
 
-Elevare `e`, numero di eulero, alla potenza di un numero complesso, l'_esponenziale_, consiste in:
-`e^(a + i * b) = e^a * e^(i * b)`
-in cui il secondo termine e' dato dalla formula di eulero:
-`e^(i * b) = cos(b) + i * sin(b)`.
+Elevare `e`, numero di eulero, alla potenza di un numero complesso, l'_esponenziale_, consiste in:<br>
+`e^(a + i * b) = e^a * e^(i * b)`<br>
+in cui il secondo termine e' dato dalla formula di eulero:<br>
+`e^(i * b) = cos(b) + i * sin(b)`.<br>
 
 
 Assumere che il linguaggio python non conosca il concetto di numero complesso e implementare le seguenti operazioni:
