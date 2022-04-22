@@ -29,5 +29,8 @@ class ComplexNumber:
     def conjugate(self):
         pass
 
+    def recyprocal(self):
+        pass
+
     def exp(self):
         pass
