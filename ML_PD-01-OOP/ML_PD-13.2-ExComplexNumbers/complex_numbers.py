@@ -3,9 +3,17 @@ from math import e, sin, cos
 class ComplexNumber:
     def __init__(self, real, imaginary):
         # 'a + b*i, Re + Im*i'
-        self.real = real
-        self.imaginary = imaginary
+        self.__real = real
+        self.__imaginary = imaginary
         pass
+
+    @property
+    def real(self):
+        return self.__real
+
+    @property
+    def imaginary(self):
+        return self.__imaginary
 
     def __repr__(self):
         # ComplexNumber(real, imaginary)
@@ -85,3 +93,10 @@ class ComplexNumber:
         e_a = e**self.real # e^a
         e_ib = ComplexNumber(cos(self.imaginary), sin(self.imaginary)) #cos(b) + i * sin(b)
         return e_ib * e_a # e^a * e^(i * b)
+
+
+if __name__=='__main__':
+
+    myN = ComplexNumber(5, 7)
+
+    print(myN.__dict__)
