@@ -1,13 +1,47 @@
 # Introduzione al Machine Learning
 
-## Tipologie di Machine Learning
+Un sistema per far si che i computer si programmino da soli.   
+Parte dalla disponibilità di dati. 
+
+
+
+## Tipologie di Machine Learning  
+Questi dati possono essere già associati ad un target 
+fotografie di mele --> c'e' la mela o non c'e' la mela
+Potrebbero essere non necessariamente gia' associati ad uno specifico target:
+fotografie generiche di frutta.   
 
 ### Supervisionato
+Quando il target e' gia dichiarato.   
+Per ciascuna fotografia che ho a disposizione, so gia' in anticipo quali contengono mele
+quali contengono pere, o banane.   
+Dati: X    
+target: y    
+X --> y    
+X e' una matrice, una tabella di _numeri_    
+y e' una colonna, una matrice =, anchessa fatta di numeri.
 
 #### Classificazione
+y e' rappresentato da _categorie_ 
+- mela / pera / banana
+- vero / falso
+- e' una frode / non e' una frode
+
+L'algoritmo di Machine Learning cerchera' di associare ciascun elemento ad una categoria.
+```python
+from sklearn.neighbors import KNeighborsClassifier
+knn_cl = KNeighborsClassifier()
+```
 #### Regressione
+y e' un numero che va da un minimo ad un massimo:
+- Quantificazione del costo di una casa.
+
+L'algoritmo di Machine Learning cerchera' di _calcolare_ quel numero
+
 
 ### Non Supervisionato
+Non abbiamo a disposizione la colonna _y, target_. I dati vengono analizzati e suddivisi, 
+categorizzati in modo automatico.
 
 #### Clusternig _KMeans_
 
